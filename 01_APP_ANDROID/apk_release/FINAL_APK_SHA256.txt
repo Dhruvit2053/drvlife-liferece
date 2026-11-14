@@ -1,0 +1,7 @@
+﻿Package: com.example.liferece
+File: drvlife-v1.0.apk
+Size: 30055659 bytes
+SHA256: A420F818FF0DBDD0D6FC36DB220283709956E3025D5C4949C831C8870907018E
+Date: 2026-11-14
+Download URL: https://liferece.surge.sh/downloads/drvlife-v1.0.apk
+

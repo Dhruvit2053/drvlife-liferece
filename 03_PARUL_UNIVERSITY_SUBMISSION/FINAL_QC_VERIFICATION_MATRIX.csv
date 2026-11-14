@@ -1,0 +1,39 @@
+Check_ID,Category,Verification_Item,Target_Artifact,Expected_Standard,Actual_Observed_Value,Status,Evidence_Reference
+CHK-01,Academic Identity,Candidate Name,FINAL_MCA_PROJECT_REPORT_FINAL_QC.pdf,Dhruvit Sarvaiya (Sole Author),Dhruvit Sarvaiya on all 58 pages,PASS,Headers & Title Page
+CHK-02,Academic Identity,Enrollment Number,FINAL_MCA_PROJECT_REPORT_FINAL_QC.pdf,2401A00600037,2401A00600037 on title & certs,PASS,Title Table & Certificates
+CHK-03,Academic Identity,Program & Semester,FINAL_MCA_PROJECT_REPORT_FINAL_QC.pdf,MCA Semester 4,MCA Semester 4 (0 Semester 3 tags),PASS,Title Table & Certificates
+CHK-04,Academic Identity,Academic Year,FINAL_MCA_PROJECT_REPORT_FINAL_QC.pdf,2026 – 2027,2026 – 2027,PASS,Title Table & Certificates
+CHK-05,Academic Identity,Internal Project Guide,FINAL_MCA_PROJECT_REPORT_FINAL_QC.pdf,Prof. Kinjal Ma'am,Prof. Kinjal Ma'am,PASS,Title & Certificates
+CHK-06,Academic Identity,University & Center,FINAL_MCA_PROJECT_REPORT_FINAL_QC.pdf,Parul University CDOE,Parul University CDOE,PASS,Front Matter
+CHK-07,Legacy Tech Purge,Node.js Backend Claims,FINAL_MCA_PROJECT_REPORT_FINAL_QC.pdf,0 backend server claims,0 occurrences across 58 pages,PASS,Full text regex scan
+CHK-08,Legacy Tech Purge,Express.js Claims,FINAL_MCA_PROJECT_REPORT_FINAL_QC.pdf,0 Express framework claims,0 occurrences across 58 pages,PASS,Full text regex scan
+CHK-09,Legacy Tech Purge,Vercel & Render Claims,FINAL_MCA_PROJECT_REPORT_FINAL_QC.pdf,0 Vercel/Render hosting claims,0 occurrences across 58 pages,PASS,Full text regex scan
+CHK-10,Legacy Tech Purge,JWT & Bcrypt Claims,FINAL_MCA_PROJECT_REPORT_FINAL_QC.pdf,0 JWT/bcrypt claims,0 occurrences across 58 pages,PASS,Full text regex scan
+CHK-11,Legacy Tech Purge,Python FastAPI Claims,FINAL_MCA_PROJECT_REPORT_FINAL_QC.pdf,0 custom FastAPI claims,0 occurrences across 58 pages,PASS,Full text regex scan
+CHK-12,Legacy Tech Purge,MongoDB Atlas Claims,FINAL_MCA_PROJECT_REPORT_FINAL_QC.pdf,0 MongoDB claims,0 occurrences across 58 pages,PASS,Full text regex scan
+CHK-13,Legacy Tech Purge,Cloudinary CDN Claims,FINAL_MCA_PROJECT_REPORT_FINAL_QC.pdf,0 Cloudinary claims,0 occurrences across 58 pages,PASS,Full text regex scan
+CHK-14,Legacy Tech Purge,Stripe API Claims,FINAL_MCA_PROJECT_REPORT_FINAL_QC.pdf,0 Stripe claims,0 occurrences across 58 pages,PASS,Full text regex scan
+CHK-15,Legacy Tech Purge,Telegram Bot Claims,FINAL_MCA_PROJECT_REPORT_FINAL_QC.pdf,0 Telegram bot claims,0 occurrences across 58 pages,PASS,Full text regex scan
+CHK-16,Storage Architecture,Room SQLite Removal,FINAL_MCA_PROJECT_REPORT_FINAL_QC.pdf,0 Room SQLite claims,0 occurrences across 58 pages,PASS,Full text regex scan
+CHK-17,Storage Architecture,Android Image Storage,FINAL_MCA_PROJECT_REPORT_FINAL_QC.pdf,context.filesDir/local_receipts,context.filesDir/local_receipts,PASS,Section 1.4 & Table 7.4
+CHK-18,Storage Architecture,Web Image Storage,FINAL_MCA_PROJECT_REPORT_FINAL_QC.pdf,Browser IndexedDB,Browser IndexedDB,PASS,Section 1.4 & Table 7.5
+CHK-19,Storage Architecture,Transaction Data Sync,FINAL_MCA_PROJECT_REPORT_FINAL_QC.pdf,Cloud Firestore Spark Tier,Cloud Firestore Spark Tier,PASS,Section 1.4 & Ch 6
+CHK-20,Storage Architecture,Zero Cloud Buckets,FINAL_MCA_PROJECT_REPORT_FINAL_QC.pdf,No remote buckets configured,No remote buckets configured,PASS,Chapter 3 & Chapter 9B
+CHK-21,Certificate Layout,Single-Page Declaration,PROJECT_CERTIFICATES_FINAL_QC.pdf,Fits on Page 5 exactly,Page 5 exactly (1720 chars),PASS,PDF Page 5
+CHK-22,Certificate Layout,Single-Page Undertaking,PROJECT_CERTIFICATES_FINAL_QC.pdf,Fits on Page 6 exactly,Page 6 exactly (1845 chars),PASS,PDF Page 6
+CHK-23,Certificate Layout,Single-Page Acknowledgement,PROJECT_CERTIFICATES_FINAL_QC.pdf,Fits on Page 10 exactly,Page 10 exactly (1934 chars),PASS,PDF Page 10
+CHK-24,Certificate Layout,Total Certificate Pages,PROJECT_CERTIFICATES_FINAL_QC.pdf,Exactly 10 Pages for 10 Certs,Exactly 10 Pages,PASS,PDF Page Count
+CHK-25,Document Layout,Table 2 Caption Attachment,FINAL_MCA_PROJECT_REPORT_FINAL_QC.pdf,Caption attached to Table 15,Caption attached on Page 24,PASS,PDF Page 24
+CHK-26,Document Layout,Table of Contents Alignment,FINAL_MCA_PROJECT_REPORT_FINAL_QC.pdf,Matches PDF coordinates,Matches 58-page PDF coordinates,PASS,Table 10 (PDF Page 14)
+CHK-27,Testing Rigor,Automated Unit Tests,FINAL_MCA_PROJECT_REPORT_FINAL_QC.pdf,10/10 PASS Gradle Runner,10/10 PASS Gradle Runner,PASS,Chapter 9 & Chapter 9B
+CHK-28,Testing Rigor,Manual Real-Device Tests,FINAL_MCA_PROJECT_REPORT_FINAL_QC.pdf,Physical Android 15 Device,Physical Android 15 Device,PASS,Section 9.3 & Ch 9B
+CHK-29,Presentation QC,Slide Count,DRVLIFE_MCA_PROJECT_PRESENTATION_FINAL_QC.pptx,Exactly 19 Slides,Exactly 19 Slides,PASS,Slide Deck Count
+CHK-30,Presentation QC,Room SQLite Purge,DRVLIFE_MCA_PROJECT_PRESENTATION_FINAL_QC.pptx,0 Room SQLite mentions,0 occurrences across 19 slides,PASS,Full text search
+CHK-31,Presentation QC,Storage Philosophy Slide,DRVLIFE_MCA_PROJECT_PRESENTATION_FINAL_QC.pptx,filesDir & Firestore Cache,filesDir & Firestore Cache,PASS,Slide 7 & Slide 10
+CHK-32,Viva Guide QC,Question Count,DRVLIFE_MCA_VIVA_PREPARATION_FINAL_QC.docx,Exactly 160 Questions,Exactly 160 Questions,PASS,Regex Question Count
+CHK-33,Viva Guide QC,Room SQLite Purge,DRVLIFE_MCA_VIVA_PREPARATION_FINAL_QC.docx,0 Room SQLite mentions,0 occurrences across 497 paragraphs,PASS,Full text search
+CHK-34,Viva Guide QC,Storage Defense Questions,DRVLIFE_MCA_VIVA_PREPARATION_FINAL_QC.docx,Q36 Q64-66 Q111-114 Reanchored,Reanchored to filesDir & Firestore,PASS,Questions 36 64-66 111-114
+CHK-35,Backup Safety,Original Report Preservation,FINAL_MCA_PROJECT_REPORT.docx,Preserved Untouched,Preserved Untouched,PASS,File Existence Check
+CHK-36,Backup Safety,Dated Backup Preservation,FINAL_MCA_PROJECT_REPORT_BACKUP_20261114.docx,Preserved Untouched,Preserved Untouched,PASS,File Existence Check
+CHK-37,Backup Safety,Remediation Backup Directory,remediation_backup_20261114_1208,6 files backed up with hashes,6 files backed up with hashes,PASS,Directory Hash Check
+

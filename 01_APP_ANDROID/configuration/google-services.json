@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "793531499006",
+    "project_id": "drvlife-50995",
+    "storage_bucket": "drvlife-50995.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:793531499006:android:0167b0f17dbd944cdf80af",
+        "android_client_info": {
+          "package_name": "com.example.liferece"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgE868kg0FS5vWx_QKGaYB1EdmFwF4LUY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
