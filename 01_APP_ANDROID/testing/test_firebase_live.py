@@ -3,7 +3,7 @@ import urllib.error
 import json
 import uuid
 
-API_KEY = "AIzaSyAoCSz01uv9ztt3iFT9owIr7FQ6bTxGaJ8"
+API_KEY = "AIzaSyAoCSz...[REDACTED_CLIENT_IDENTIFIER]"
 PROJECT_ID = "com-example-liferece-fe149"
 STORAGE_BUCKET = "com-example-liferece-fe149.firebasestorage.app"
 

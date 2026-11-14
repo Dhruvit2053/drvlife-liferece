@@ -38,7 +38,7 @@ DrvLife has been fully re-architected to operate strictly within the **100% Free
 
 ### 1. Firebase Authentication on Free Tier (ACTIVE)
 - **Status:** **PASS**
-- **Verification:** Live tested with `identitytoolkit.googleapis.com` using project key `AIzaSyAoOdoHxlOYwrBX_SYkZaUdaEWLdhgcCaM`.
+- **Verification:** Live tested with `identitytoolkit.googleapis.com` using project key `AIzaSyAoOdo...[REDACTED_WEB_IDENTIFIER]`.
 - **Quota Headroom:** Supports up to 50,000 Monthly Active Users (MAUs) completely free of charge.
 
 ---

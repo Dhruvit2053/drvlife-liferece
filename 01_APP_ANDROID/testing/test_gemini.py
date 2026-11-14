@@ -2,7 +2,7 @@ import urllib.request
 import json
 import base64
 
-api_key = 'AIzaSyBO7qr_SBRieJunRDe66hrRVKd9zBKRx3w'
+api_key = 'AIzaSyBO7qr...[REDACTED_GEMINI_KEY]'
 url = f'https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key={api_key}'
 
 print("--- RUNNING REAL GEMINI AI VERIFICATION SUITE ---")

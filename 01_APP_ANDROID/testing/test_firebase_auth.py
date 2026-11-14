@@ -2,7 +2,7 @@ import urllib.request
 import urllib.error
 import json
 
-API_KEY = "AIzaSyAoCSz01uv9ztt3iFT9owIr7FQ6bTxGaJ8"
+API_KEY = "AIzaSyAoCSz...[REDACTED_CLIENT_IDENTIFIER]"
 
 # Test sign in with user A credentials
 signin_url = f"https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key={API_KEY}"

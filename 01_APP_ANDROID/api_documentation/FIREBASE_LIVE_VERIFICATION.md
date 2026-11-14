@@ -1,7 +1,7 @@
 # FIREBASE LIVE PRODUCTION BACKEND VERIFICATION REPORT
 **Target Firebase Project:** `com-example-liferece-fe149`  
 **Project Number:** `245544116893`  
-**Firebase Web API Key:** `AIzaSyAoCSz01uv9ztt3iFT9owIr7FQ6bTxGaJ8`  
+**Firebase Web API Key:** `AIzaSyAoCSz...[REDACTED_CLIENT_IDENTIFIER]`  
 **Audit Date:** November 13, 2026  
 **Auditor:** Senior Cloud & Database Administrator / Backend QA  
 
@@ -23,7 +23,7 @@
 Direct automated REST calls against Google's Identity Toolkit confirmed that the Firebase Authentication service is fully provisioned and accepting sign-up, token exchange, and credential validation requests.
 
 ### Real Execution Evidence:
-- **Test Endpoint:** `POST https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyAoCSz01uv9ztt3iFT9owIr7FQ6bTxGaJ8`
+- **Test Endpoint:** `POST https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyAoCSz...[REDACTED_CLIENT_IDENTIFIER]`
 - **Payload:** `{"email": "audit_fresh_1763038622@example.com", "password": "SecurePassword123!", "returnSecureToken": true}`
 - **Response Code:** `HTTP 200 OK`
 - **Generated User UID:** `WZ9jUFJlXyQsQgduTXp1Z7CrTFa2`

@@ -2,7 +2,7 @@
 **Web Domain:** `https://liferece.surge.sh`  
 **Firebase Project:** `drvlife-50995`  
 **Web App ID:** `1:793531499006:web:3089b8f29a4c5760df80af`  
-**API Key:** `AIzaSyAoOdoHxlOYwrBX_SYkZaUdaEWLdhgcCaM`  
+**API Key:** `AIzaSyAoOdo...[REDACTED_WEB_IDENTIFIER]`  
 **Audit Date:** November 13, 2026  
 **Auditor:** Senior Full-Stack Web Architect  
 

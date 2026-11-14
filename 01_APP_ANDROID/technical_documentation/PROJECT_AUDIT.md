@@ -76,7 +76,7 @@ DrvLife is an AI-powered personal financial management ecosystem consisting of:
 ### 4.1 Firebase Configuration (`google-services.json` & `firebase/config.ts`)
 - **Project ID**: `com-example-liferece-fe149`
 - **Project Number**: `245544116893`
-- **Web App API Key**: `AIzaSyAoCSz01uv9ztt3iFT9owIr7FQ6bTxGaJ8`
+- **Web App API Key**: `AIzaSyAoCSz...[REDACTED_CLIENT_IDENTIFIER]`
 - **Storage Bucket**: `com-example-liferece-fe149.firebasestorage.app`
 - **Assessment**:
   - API keys in Firebase client applications are identifiers used to route requests to the Google backend; they are meant to be embedded in apps and protected via API key restrictions and Firebase Security Rules.

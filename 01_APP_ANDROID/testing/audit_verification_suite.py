@@ -65,7 +65,7 @@ except Exception as e:
 # ITEM 2: Authentication signup, login, logout, and session persistence
 # ------------------------------------------------------------------------------
 print("\n[ITEM 2] Testing Authentication signup, login, token refresh...")
-WEB_KEY = "AIzaSyAoOdoHxlOYwrBX_SYkZaUdaEWLdhgcCaM"
+WEB_KEY = "AIzaSyAoOdo...[REDACTED_WEB_IDENTIFIER]"
 PROJECT_ID = "drvlife-50995"
 user_a_email = f"audit_a_{int(time.time())}@drvlife.test"
 user_a_pass = "AuditPass123!"

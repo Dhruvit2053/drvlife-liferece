@@ -50,11 +50,11 @@ The native Android build utilizes official, modern libraries pinned via Gradle v
 
 An automated AST and regex-pattern scan was executed across all Kotlin, TypeScript, JavaScript, XML, and JSON files to detect private keys, credentials, and sensitive configurations.
 
-### 1. Firebase API Key (`AIzaSyAoCSz01uv9ztt3iFT9owIr7FQ6bTxGaJ8`)
+### 1. Firebase API Key (`AIzaSyAoCSz...[REDACTED_CLIENT_IDENTIFIER]`)
 - **Status:** **NORMAL CLIENT-SIDE IDENTIFIER**
 - **Analysis:** In Firebase architecture, web API keys are not secrets. They function as project identifiers. True security is enforced via Cloud Security Rules (`firestore.rules` and `storage.rules`).
 
-### 2. Gemini API Key (`AIzaSyBO7qr_SBRieJunRDe66hrRVKd9zBKRx3w`)
+### 2. Gemini API Key (`AIzaSyBO7qr...[REDACTED_GEMINI_KEY]`)
 - **Status:** **SECURED FOR TESTING / RESTRICTIONS RECOMMENDED FOR PROD**
 - **Analysis:** The key is configured within the Android client for direct Gemini AI communication.
 - **Production Recommendation:** Before general release on the Google Play Store, restrict this API key in the Google Cloud Console to only accept requests matching the app's official SHA-1 signing fingerprint:
