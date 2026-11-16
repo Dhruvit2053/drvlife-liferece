@@ -56,14 +56,15 @@ const ScrollToTop = () => {
     const title = routeTitles[pathname] || 'DrvLife — #1 AI-Powered Expense & UPI Auto-Tracker for Android';
     document.title = title;
 
-    // Update canonical link
+    // Update canonical link to match active origin dynamically (Vercel, Firebase, Surge)
     let canonical = document.querySelector('link[rel="canonical"]') as HTMLLinkElement | null;
     if (!canonical) {
       canonical = document.createElement('link');
       canonical.rel = 'canonical';
       document.head.appendChild(canonical);
     }
-    canonical.href = `https://liferece.surge.sh${pathname === '/' ? '/' : pathname}`;
+    const origin = window.location.origin;
+    canonical.href = `${origin}${pathname === '/' ? '/' : pathname}`;
 
     // Send page_view to GA4 / GTM
     if (typeof (window as any).gtag === 'function') {

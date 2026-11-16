@@ -33,4 +33,5 @@ Allow: /
 User-agent: ClaudeBot
 Allow: /
 
-Sitemap: https://liferece.surge.sh/sitemap.xml
+Sitemap: https://drvlife.vercel.app/sitemap.xml
+Sitemap: https://liferece.surge.sh/sitemap-surge.xml
