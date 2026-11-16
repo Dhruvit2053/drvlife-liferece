@@ -1,0 +1,269 @@
+Category,File_Path,File_Name,Size_Bytes,Lines_Of_Code,Component_Type,Primary_Function,Status
+ROOT_FILE,README.md,README.md,3305,63,Root Documentation,Project Overview & Instructions,ACTIVE_DOC
+ROOT_FILE,android_project/.gitignore,.gitignore,226,0,Root Documentation,Project Overview & Instructions,ACTIVE_DOC
+BUILD_CONFIG,android_project/build.gradle.kts,build.gradle.kts,281,6,Gradle / Build System,"Build Dependency, Version Catalog or Firebase Config",ACTIVE_CONFIG
+BUILD_CONFIG,android_project/gradle.properties,gradle.properties,1120,19,Gradle / Build System,"Build Dependency, Version Catalog or Firebase Config",ACTIVE_CONFIG
+ROOT_FILE,android_project/gradlew,gradlew,8728,0,Root Documentation,Project Overview & Instructions,ACTIVE_DOC
+ROOT_FILE,android_project/gradlew.bat,gradlew.bat,2937,0,Root Documentation,Project Overview & Instructions,ACTIVE_DOC
+ROOT_FILE,android_project/local.properties,local.properties,451,10,Root Documentation,Project Overview & Instructions,ACTIVE_DOC
+BUILD_CONFIG,android_project/settings.gradle.kts,settings.gradle.kts,619,26,Gradle / Build System,"Build Dependency, Version Catalog or Firebase Config",ACTIVE_CONFIG
+ROOT_FILE,android_project/app/.gitignore,.gitignore,6,0,Root Documentation,Project Overview & Instructions,ACTIVE_DOC
+BUILD_CONFIG,android_project/app/build.gradle.kts,build.gradle.kts,1932,62,Gradle / Build System,"Build Dependency, Version Catalog or Firebase Config",ACTIVE_CONFIG
+BUILD_CONFIG,android_project/app/google-services.json,google-services.json,704,29,Gradle / Build System,"Build Dependency, Version Catalog or Firebase Config",ACTIVE_CONFIG
+INSTRUMENTED_TEST,android_project/app/src/androidTest/java/com/example/liferece/ExampleInstrumentedTest.kt,ExampleInstrumentedTest.kt,667,24,Android Instrumented Test,Instrumentation Test Definition,ACTIVE_TEST
+ROOT_FILE,android_project/app/src/main/AndroidManifest.xml,AndroidManifest.xml,2124,53,Root Documentation,Project Overview & Instructions,ACTIVE_DOC
+KOTLIN_SOURCE,android_project/app/src/main/java/com/example/liferece/AiAdvisorScreen.kt,AiAdvisorScreen.kt,26518,657,Android Component,Jetpack Compose UI Screen,ACTIVE_SOURCE
+KOTLIN_SOURCE,android_project/app/src/main/java/com/example/liferece/AiAdvisorViewModel.kt,AiAdvisorViewModel.kt,4383,110,Android Component,Architecture MVVM State ViewModel,ACTIVE_SOURCE
+KOTLIN_SOURCE,android_project/app/src/main/java/com/example/liferece/BudgetScreen.kt,BudgetScreen.kt,17954,412,Android Component,Jetpack Compose UI Screen,ACTIVE_SOURCE
+KOTLIN_SOURCE,android_project/app/src/main/java/com/example/liferece/BudgetViewModel.kt,BudgetViewModel.kt,1241,41,Android Component,Architecture MVVM State ViewModel,ACTIVE_SOURCE
+KOTLIN_SOURCE,android_project/app/src/main/java/com/example/liferece/DashboardScreen.kt,DashboardScreen.kt,30052,766,Android Component,Jetpack Compose UI Screen,ACTIVE_SOURCE
+KOTLIN_SOURCE,android_project/app/src/main/java/com/example/liferece/LoginScreen.kt,LoginScreen.kt,14156,335,Android Component,Jetpack Compose UI Screen,ACTIVE_SOURCE
+KOTLIN_SOURCE,android_project/app/src/main/java/com/example/liferece/MainActivity.kt,MainActivity.kt,5787,130,Android Component,Core Application Entry / State,ACTIVE_SOURCE
+KOTLIN_SOURCE,android_project/app/src/main/java/com/example/liferece/MainScreen.kt,MainScreen.kt,6022,139,Android Component,Jetpack Compose UI Screen,ACTIVE_SOURCE
+KOTLIN_SOURCE,android_project/app/src/main/java/com/example/liferece/OnboardingScreen.kt,OnboardingScreen.kt,12756,285,Android Component,Jetpack Compose UI Screen,ACTIVE_SOURCE
+KOTLIN_SOURCE,android_project/app/src/main/java/com/example/liferece/ProfileReportsScreen.kt,ProfileReportsScreen.kt,23260,516,Android Component,Jetpack Compose UI Screen,ACTIVE_SOURCE
+KOTLIN_SOURCE,android_project/app/src/main/java/com/example/liferece/ProfileViewModel.kt,ProfileViewModel.kt,9891,228,Android Component,Architecture MVVM State ViewModel,ACTIVE_SOURCE
+KOTLIN_SOURCE,android_project/app/src/main/java/com/example/liferece/RegisterScreen.kt,RegisterScreen.kt,13449,297,Android Component,Jetpack Compose UI Screen,ACTIVE_SOURCE
+KOTLIN_SOURCE,android_project/app/src/main/java/com/example/liferece/TransactionsScreen.kt,TransactionsScreen.kt,19137,437,Android Component,Jetpack Compose UI Screen,ACTIVE_SOURCE
+KOTLIN_SOURCE,android_project/app/src/main/java/com/example/liferece/TransactionViewModel.kt,TransactionViewModel.kt,6119,165,Android Component,Architecture MVVM State ViewModel,ACTIVE_SOURCE
+KOTLIN_SOURCE,android_project/app/src/main/java/com/example/liferece/UiState.kt,UiState.kt,241,9,Android Component,Core Application Entry / State,ACTIVE_SOURCE
+KOTLIN_SOURCE,android_project/app/src/main/java/com/example/liferece/UpiNotificationListenerService.kt,UpiNotificationListenerService.kt,10495,224,Android Component,Background Service / Notification Listener,ACTIVE_SOURCE
+KOTLIN_SOURCE,android_project/app/src/main/java/com/example/liferece/data/repository/AiAdvisorRepository.kt,AiAdvisorRepository.kt,13494,305,Android Component,Data Access & Repository Layer,ACTIVE_SOURCE
+KOTLIN_SOURCE,android_project/app/src/main/java/com/example/liferece/data/repository/BudgetRepository.kt,BudgetRepository.kt,4750,126,Android Component,Data Access & Repository Layer,ACTIVE_SOURCE
+KOTLIN_SOURCE,android_project/app/src/main/java/com/example/liferece/data/repository/TransactionRepository.kt,TransactionRepository.kt,9240,199,Android Component,Data Access & Repository Layer,ACTIVE_SOURCE
+KOTLIN_SOURCE,android_project/app/src/main/java/com/example/liferece/data/repository/UserRepository.kt,UserRepository.kt,5368,137,Android Component,Data Access & Repository Layer,ACTIVE_SOURCE
+KOTLIN_SOURCE,android_project/app/src/main/java/com/example/liferece/model/Models.kt,Models.kt,2988,115,Android Component,Data Transfer Objects & Models,ACTIVE_SOURCE
+KOTLIN_SOURCE,android_project/app/src/main/java/com/example/liferece/ui/theme/Color.kt,Color.kt,1224,33,Android Component,Material 3 Theme & Typography,ACTIVE_SOURCE
+KOTLIN_SOURCE,android_project/app/src/main/java/com/example/liferece/ui/theme/Theme.kt,Theme.kt,4324,137,Android Component,Material 3 Theme & Typography,ACTIVE_SOURCE
+KOTLIN_SOURCE,android_project/app/src/main/java/com/example/liferece/ui/theme/Type.kt,Type.kt,1700,59,Android Component,Material 3 Theme & Typography,ACTIVE_SOURCE
+KOTLIN_SOURCE,android_project/app/src/main/java/com/example/liferece/util/LocalReceiptManager.kt,LocalReceiptManager.kt,3792,109,Android Component,Utility / Receipt Management / Validation,ACTIVE_SOURCE
+KOTLIN_SOURCE,android_project/app/src/main/java/com/example/liferece/util/ValidationUtils.kt,ValidationUtils.kt,4298,100,Android Component,Utility / Receipt Management / Validation,ACTIVE_SOURCE
+ROOT_FILE,android_project/app/src/main/keepRules/rules.keep,rules.keep,418,0,Root Documentation,Project Overview & Instructions,ACTIVE_DOC
+ANDROID_RESOURCE,android_project/app/src/main/res/drawable/baked_goods_1.jpg,baked_goods_1.jpg,61037,0,XML / Asset Resource,"Layout, Value, Drawable, or Manifest XML",ACTIVE_RESOURCE
+ANDROID_RESOURCE,android_project/app/src/main/res/drawable/baked_goods_2.jpg,baked_goods_2.jpg,63223,0,XML / Asset Resource,"Layout, Value, Drawable, or Manifest XML",ACTIVE_RESOURCE
+ANDROID_RESOURCE,android_project/app/src/main/res/drawable/baked_goods_3.jpg,baked_goods_3.jpg,88033,0,XML / Asset Resource,"Layout, Value, Drawable, or Manifest XML",ACTIVE_RESOURCE
+ANDROID_RESOURCE,android_project/app/src/main/res/drawable/ic_launcher_background.xml,ic_launcher_background.xml,5606,170,XML / Asset Resource,"Layout, Value, Drawable, or Manifest XML",ACTIVE_RESOURCE
+ANDROID_RESOURCE,android_project/app/src/main/res/drawable/ic_launcher_foreground.xml,ic_launcher_foreground.xml,1702,30,XML / Asset Resource,"Layout, Value, Drawable, or Manifest XML",ACTIVE_RESOURCE
+ANDROID_RESOURCE,android_project/app/src/main/res/mipmap-hdpi/ic_launcher.png,ic_launcher.png,6839,0,XML / Asset Resource,"Layout, Value, Drawable, or Manifest XML",ACTIVE_RESOURCE
+ANDROID_RESOURCE,android_project/app/src/main/res/mipmap-hdpi/ic_launcher_round.png,ic_launcher_round.png,6839,0,XML / Asset Resource,"Layout, Value, Drawable, or Manifest XML",ACTIVE_RESOURCE
+ANDROID_RESOURCE,android_project/app/src/main/res/mipmap-mdpi/ic_launcher.png,ic_launcher.png,3582,0,XML / Asset Resource,"Layout, Value, Drawable, or Manifest XML",ACTIVE_RESOURCE
+ANDROID_RESOURCE,android_project/app/src/main/res/mipmap-mdpi/ic_launcher_round.png,ic_launcher_round.png,3582,0,XML / Asset Resource,"Layout, Value, Drawable, or Manifest XML",ACTIVE_RESOURCE
+ANDROID_RESOURCE,android_project/app/src/main/res/mipmap-xhdpi/ic_launcher.png,ic_launcher.png,11047,0,XML / Asset Resource,"Layout, Value, Drawable, or Manifest XML",ACTIVE_RESOURCE
+ANDROID_RESOURCE,android_project/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png,ic_launcher_round.png,11047,0,XML / Asset Resource,"Layout, Value, Drawable, or Manifest XML",ACTIVE_RESOURCE
+ANDROID_RESOURCE,android_project/app/src/main/res/mipmap-xxhdpi/ic_launcher.png,ic_launcher.png,22315,0,XML / Asset Resource,"Layout, Value, Drawable, or Manifest XML",ACTIVE_RESOURCE
+ANDROID_RESOURCE,android_project/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png,ic_launcher_round.png,22315,0,XML / Asset Resource,"Layout, Value, Drawable, or Manifest XML",ACTIVE_RESOURCE
+ANDROID_RESOURCE,android_project/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png,ic_launcher.png,37002,0,XML / Asset Resource,"Layout, Value, Drawable, or Manifest XML",ACTIVE_RESOURCE
+ANDROID_RESOURCE,android_project/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png,ic_launcher_round.png,37002,0,XML / Asset Resource,"Layout, Value, Drawable, or Manifest XML",ACTIVE_RESOURCE
+ANDROID_RESOURCE,android_project/app/src/main/res/values/colors.xml,colors.xml,378,10,XML / Asset Resource,"Layout, Value, Drawable, or Manifest XML",ACTIVE_RESOURCE
+ANDROID_RESOURCE,android_project/app/src/main/res/values/strings.xml,strings.xml,553,11,XML / Asset Resource,"Layout, Value, Drawable, or Manifest XML",ACTIVE_RESOURCE
+ANDROID_RESOURCE,android_project/app/src/main/res/values/themes.xml,themes.xml,150,5,XML / Asset Resource,"Layout, Value, Drawable, or Manifest XML",ACTIVE_RESOURCE
+ANDROID_RESOURCE,android_project/app/src/main/res/xml/backup_rules.xml,backup_rules.xml,478,13,XML / Asset Resource,"Layout, Value, Drawable, or Manifest XML",ACTIVE_RESOURCE
+ANDROID_RESOURCE,android_project/app/src/main/res/xml/data_extraction_rules.xml,data_extraction_rules.xml,551,19,XML / Asset Resource,"Layout, Value, Drawable, or Manifest XML",ACTIVE_RESOURCE
+ANDROID_RESOURCE,android_project/app/src/main/res/xml/file_paths.xml,file_paths.xml,211,6,XML / Asset Resource,"Layout, Value, Drawable, or Manifest XML",ACTIVE_RESOURCE
+UNIT_TEST,android_project/app/src/test/java/com/example/liferece/ExampleUnitTest.kt,ExampleUnitTest.kt,344,17,JVM Unit Test,Automated JUnit 4 Test Suite,ACTIVE_TEST
+UNIT_TEST,android_project/app/src/test/java/com/example/liferece/TransactionCalculationsTest.kt,TransactionCalculationsTest.kt,1523,43,JVM Unit Test,Automated JUnit 4 Test Suite,ACTIVE_TEST
+UNIT_TEST,android_project/app/src/test/java/com/example/liferece/ValidationUtilsTest.kt,ValidationUtilsTest.kt,3953,101,JVM Unit Test,Automated JUnit 4 Test Suite,ACTIVE_TEST
+ROOT_FILE,android_project/gradle/gradle-daemon-jvm.properties,gradle-daemon-jvm.properties,1138,12,Root Documentation,Project Overview & Instructions,ACTIVE_DOC
+BUILD_CONFIG,android_project/gradle/libs.versions.toml,libs.versions.toml,2595,0,Gradle / Build System,"Build Dependency, Version Catalog or Firebase Config",ACTIVE_CONFIG
+ROOT_FILE,android_project/gradle/wrapper/gradle-wrapper.jar,gradle-wrapper.jar,45457,0,Root Documentation,Project Overview & Instructions,ACTIVE_DOC
+ROOT_FILE,android_project/gradle/wrapper/gradle-wrapper.properties,gradle-wrapper.properties,290,8,Root Documentation,Project Overview & Instructions,ACTIVE_DOC
+API_DOCS,api_documentation/API_INTEGRATION_REPORT.md,API_INTEGRATION_REPORT.md,6473,76,API Specification,API Documentation & Endpoints,DOCUMENTATION
+API_DOCS,api_documentation/FIREBASE_LIVE_VERIFICATION.md,FIREBASE_LIVE_VERIFICATION.md,6676,143,API Specification,API Documentation & Endpoints,DOCUMENTATION
+API_DOCS,api_documentation/GEMINI_LIVE_VERIFICATION.md,GEMINI_LIVE_VERIFICATION.md,4516,87,API Specification,API Documentation & Endpoints,DOCUMENTATION
+APK_BINARY,apk_release/app-debug.apk,app-debug.apk,30055659,0,Android Package Archive,Compiled Application Binary Artifact,RELEASE_ARTIFACT
+APK_BINARY,apk_release/drvlife-v1.0.apk,drvlife-v1.0.apk,30055659,0,Android Package Archive,Compiled Application Binary Artifact,RELEASE_ARTIFACT
+APK_BINARY,apk_release/FINAL_APK_SHA256.txt,FINAL_APK_SHA256.txt,236,7,Android Package Archive,Compiled Application Binary Artifact,RELEASE_ARTIFACT
+MEDIA_ASSETS,assets/app_screen.png,app_screen.png,586580,0,Image / Media Asset,Design Assets and Application Screenshots,MEDIA_ASSET
+MEDIA_ASSETS,assets/logo.png,logo.png,1191788,0,Image / Media Asset,Design Assets and Application Screenshots,MEDIA_ASSET
+MEDIA_ASSETS,assets/branding/Screenshot 2026-09-10 103449-Photoroom (1).png,Screenshot 2026-09-10 103449-Photoroom (1).png,38205,0,Image / Media Asset,Design Assets and Application Screenshots,MEDIA_ASSET
+MEDIA_ASSETS,assets/branding/Screenshot 2026-09-10 103449-Photoroom.png,Screenshot 2026-09-10 103449-Photoroom.png,38205,0,Image / Media Asset,Design Assets and Application Screenshots,MEDIA_ASSET
+MEDIA_ASSETS,assets/branding/Screenshot 2026-09-10 103449.svg,Screenshot 2026-09-10 103449.svg,66969,0,Image / Media Asset,Design Assets and Application Screenshots,MEDIA_ASSET
+MEDIA_ASSETS,assets/branding/Screenshot-2026-09-10-103449.svg,Screenshot-2026-09-10-103449.svg,15048,0,Image / Media Asset,Design Assets and Application Screenshots,MEDIA_ASSET
+MEDIA_ASSETS,assets/branding/Screenshot_2026-09-10_103449-removebg-preview.png,Screenshot_2026-09-10_103449-removebg-preview.png,43491,0,Image / Media Asset,Design Assets and Application Screenshots,MEDIA_ASSET
+MEDIA_ASSETS,assets/icons_xxhdpi/ic_launcher.png,ic_launcher.png,22315,0,Image / Media Asset,Design Assets and Application Screenshots,MEDIA_ASSET
+MEDIA_ASSETS,assets/icons_xxhdpi/ic_launcher_round.png,ic_launcher_round.png,22315,0,Image / Media Asset,Design Assets and Application Screenshots,MEDIA_ASSET
+BUILD_CONFIG,configuration/app_build.gradle.kts,app_build.gradle.kts,1932,62,Gradle / Build System,"Build Dependency, Version Catalog or Firebase Config",ACTIVE_CONFIG
+ROOT_FILE,configuration/file_paths.xml,file_paths.xml,211,6,Root Documentation,Project Overview & Instructions,ACTIVE_DOC
+BUILD_CONFIG,configuration/google-services.json,google-services.json,704,29,Gradle / Build System,"Build Dependency, Version Catalog or Firebase Config",ACTIVE_CONFIG
+BUILD_CONFIG,configuration/libs.versions.toml,libs.versions.toml,2595,0,Gradle / Build System,"Build Dependency, Version Catalog or Firebase Config",ACTIVE_CONFIG
+BUILD_CONFIG,configuration/root_build.gradle.kts,root_build.gradle.kts,281,6,Gradle / Build System,"Build Dependency, Version Catalog or Firebase Config",ACTIVE_CONFIG
+FIREBASE_CONFIG,database_firebase/FIREBASE_DATABASE_AUDIT.md,FIREBASE_DATABASE_AUDIT.md,5957,106,Firestore Rules & Audit Documentation,Firebase Backend Security & Architecture,DOCUMENTATION_CONFIG
+FIREBASE_CONFIG,database_firebase/FIREBASE_SECURITY_RULES_AUDIT.md,FIREBASE_SECURITY_RULES_AUDIT.md,4420,89,Firestore Rules & Audit Documentation,Firebase Backend Security & Architecture,DOCUMENTATION_CONFIG
+FIREBASE_CONFIG,database_firebase/FIREBASE_SECURITY_VERIFICATION.md,FIREBASE_SECURITY_VERIFICATION.md,4518,107,Firestore Rules & Audit Documentation,Firebase Backend Security & Architecture,DOCUMENTATION_CONFIG
+FIREBASE_CONFIG,database_firebase/FIREBASE_SETUP_COMPLETE.md,FIREBASE_SETUP_COMPLETE.md,3771,73,Firestore Rules & Audit Documentation,Firebase Backend Security & Architecture,DOCUMENTATION_CONFIG
+FIREBASE_CONFIG,database_firebase/FIREBASE_SPARK_FREE_TIER_ARCHITECTURE.md,FIREBASE_SPARK_FREE_TIER_ARCHITECTURE.md,8475,178,Firestore Rules & Audit Documentation,Firebase Backend Security & Architecture,DOCUMENTATION_CONFIG
+FIREBASE_CONFIG,database_firebase/firestore.rules,firestore.rules,1042,46,Firestore Rules & Audit Documentation,Firebase Backend Security & Architecture,DOCUMENTATION_CONFIG
+FIREBASE_CONFIG,database_firebase/FIRESTORE_RULES_AUDIT.md,FIRESTORE_RULES_AUDIT.md,2929,73,Firestore Rules & Audit Documentation,Firebase Backend Security & Architecture,DOCUMENTATION_CONFIG
+FIREBASE_CONFIG,database_firebase/storage.rules,storage.rules,483,14,Firestore Rules & Audit Documentation,Firebase Backend Security & Architecture,DOCUMENTATION_CONFIG
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/.gitignore,.gitignore,225,0,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/AI_SECURITY_TESTS.md,AI_SECURITY_TESTS.md,4014,56,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/ANDROID_CLOUD_SYNC_TESTS.md,ANDROID_CLOUD_SYNC_TESTS.md,2404,53,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/ANDROID_DEVICE_TESTS.md,ANDROID_DEVICE_TESTS.md,4685,101,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/ANDROID_SECURITY_TESTS.md,ANDROID_SECURITY_TESTS.md,3168,57,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/ANDROID_TEST_REPORT.md,ANDROID_TEST_REPORT.md,12967,151,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/API_INTEGRATION_REPORT.md,API_INTEGRATION_REPORT.md,6473,76,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/app-debug.apk,app-debug.apk,30055659,0,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/app_screen.png,app_screen.png,586580,0,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/audit_results_summary.json,audit_results_summary.json,2487,76,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/audit_verification_suite.py,audit_verification_suite.py,25377,506,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/BUGS_AND_FIXES.md,BUGS_AND_FIXES.md,5176,70,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+BUILD_CONFIG,REVIEW_BEFORE_DELETE/build.gradle.kts,build.gradle.kts,281,6,Gradle / Build System,"Build Dependency, Version Catalog or Firebase Config",ACTIVE_CONFIG
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/build_full_viva_doc.py,build_full_viva_doc.py,42210,355,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/build_mca_presentation.py,build_mca_presentation.py,26662,475,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/build_mca_report.py,build_mca_report.py,7610,144,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/BUTTON_FUNCTIONALITY_AUDIT.md,BUTTON_FUNCTIONALITY_AUDIT.md,17082,116,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/CERTIFICATE_REQUIREMENTS_CHECKLIST.md,CERTIFICATE_REQUIREMENTS_CHECKLIST.md,6236,82,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/convert_certificates_to_pdf.py,convert_certificates_to_pdf.py,711,24,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/CROSS_DEVICE_SYNC_TESTS.md,CROSS_DEVICE_SYNC_TESTS.md,3301,55,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/DEPENDENCY_AND_SECRET_AUDIT.md,DEPENDENCY_AND_SECRET_AUDIT.md,3597,75,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/DEPENDENCY_AUDIT.md,DEPENDENCY_AUDIT.md,2623,69,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/execute_root_cleanup.py,execute_root_cleanup.py,1715,46,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/FINAL_APK_SHA256.txt,FINAL_APK_SHA256.txt,236,7,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/FINAL_INDEPENDENT_SECURITY_AUDIT.md,FINAL_INDEPENDENT_SECURITY_AUDIT.md,13660,231,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/FINAL_PRODUCTION_AUDIT.md,FINAL_PRODUCTION_AUDIT.md,15499,242,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/FINAL_PRODUCTION_READINESS.md,FINAL_PRODUCTION_READINESS.md,2761,55,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/FINAL_PRODUCTION_READINESS_REPORT.md,FINAL_PRODUCTION_READINESS_REPORT.md,3951,61,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/FINAL_QA_REPORT.md,FINAL_QA_REPORT.md,5710,62,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/FINAL_RELEASE_BLOCKERS.md,FINAL_RELEASE_BLOCKERS.md,4671,108,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/FINAL_RELEASE_CHECKLIST.md,FINAL_RELEASE_CHECKLIST.md,3389,49,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/FINAL_SECURITY_SCORE.md,FINAL_SECURITY_SCORE.md,2892,30,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/firebase-debug.log,firebase-debug.log,3930,0,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/FIREBASE_DATABASE_AUDIT.md,FIREBASE_DATABASE_AUDIT.md,5957,106,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/firebase_fresh_audit.json,firebase_fresh_audit.json,809,14,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/firebase_live_audit_results.json,firebase_live_audit_results.json,2064,13,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/FIREBASE_LIVE_VERIFICATION.md,FIREBASE_LIVE_VERIFICATION.md,6527,143,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/FIREBASE_SECURITY_RULES_AUDIT.md,FIREBASE_SECURITY_RULES_AUDIT.md,4420,89,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/FIREBASE_SECURITY_VERIFICATION.md,FIREBASE_SECURITY_VERIFICATION.md,4518,107,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/FIREBASE_SETUP_COMPLETE.md,FIREBASE_SETUP_COMPLETE.md,3771,73,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/FIREBASE_SPARK_FREE_TIER_ARCHITECTURE.md,FIREBASE_SPARK_FREE_TIER_ARCHITECTURE.md,8297,178,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/firestore.rules,firestore.rules,1042,46,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/FIRESTORE_RULES_AUDIT.md,FIRESTORE_RULES_AUDIT.md,2929,73,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/gemini_full_test_results.json,gemini_full_test_results.json,2451,46,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/GEMINI_LIVE_VERIFICATION.md,GEMINI_LIVE_VERIFICATION.md,4433,87,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/gemini_model_status.json,gemini_model_status.json,643,20,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/generate_certificates.py,generate_certificates.py,29735,619,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/generate_maintenance_reports.py,generate_maintenance_reports.py,20067,261,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/generate_viva_doc.py,generate_viva_doc.py,20798,317,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+BUILD_CONFIG,REVIEW_BEFORE_DELETE/gradle.properties,gradle.properties,1120,19,Gradle / Build System,"Build Dependency, Version Catalog or Firebase Config",ACTIVE_CONFIG
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/gradlew,gradlew,8728,0,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/gradlew.bat,gradlew.bat,2937,0,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/integrate_certificates_into_report.py,integrate_certificates_into_report.py,12387,261,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/integrate_certificates_preserving_figures.py,integrate_certificates_preserving_figures.py,9729,182,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/investigate_models.py,investigate_models.py,1155,34,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/liferece-4.apk,liferece-4.apk,26843656,0,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/list_supported_models.py,list_supported_models.py,481,14,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/local.properties,local.properties,451,10,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/logo.png,logo.png,1191788,0,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/MASTER_PROJECT_COMPLETION_REPORT.md,MASTER_PROJECT_COMPLETION_REPORT.md,8526,76,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/PERFORMANCE_REPORT.md,PERFORMANCE_REPORT.md,3053,53,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/PRODUCTION_GO_NO_GO.md,PRODUCTION_GO_NO_GO.md,4672,65,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/PRODUCTION_READINESS_REPORT.md,PRODUCTION_READINESS_REPORT.md,4724,60,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/PRODUCTION_RELEASE_DECISION.md,PRODUCTION_RELEASE_DECISION.md,2799,42,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/PROJECT_AUDIT.md,PROJECT_AUDIT.md,10059,114,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/README.md,README.md,9578,199,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/REMAINING_BLOCKERS.md,REMAINING_BLOCKERS.md,3939,96,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/reorganize_project.py,reorganize_project.py,16788,275,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/scan.js,scan.js,712,0,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/screen.png,screen.png,1389217,0,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/screen_current.png,screen_current.png,16206,0,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/SECOND_ROUND_VERIFICATION.md,SECOND_ROUND_VERIFICATION.md,10748,173,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/SECURITY_AUDIT.md,SECURITY_AUDIT.md,4408,68,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/SECURITY_FINDINGS_VERIFIED.md,SECURITY_FINDINGS_VERIFIED.md,8173,125,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/SECURITY_FIXES_IMPLEMENTED.md,SECURITY_FIXES_IMPLEMENTED.md,7995,154,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/security_test_results.json,security_test_results.json,2247,84,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+BUILD_CONFIG,REVIEW_BEFORE_DELETE/settings.gradle.kts,settings.gradle.kts,619,26,Gradle / Build System,"Build Dependency, Version Catalog or Firebase Config",ACTIVE_CONFIG
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/signup_screen.png,signup_screen.png,1394545,0,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/storage.rules,storage.rules,483,14,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/STORAGE_ACCESS_AUDIT.md,STORAGE_ACCESS_AUDIT.md,4091,77,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/STORAGE_SETUP_AUDIT.md,STORAGE_SETUP_AUDIT.md,2068,54,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/test_firebase_auth.py,test_firebase_auth.py,1714,49,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/test_firebase_live.py,test_firebase_live.py,3945,107,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/test_gemini.py,test_gemini.py,3980,78,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/test_gemini_full.py,test_gemini_full.py,6653,175,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/test_gemini_models_live.py,test_gemini_models_live.py,1516,43,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/test_newer_models.py,test_newer_models.py,1193,35,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/test_security_suite.py,test_security_suite.py,11254,266,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/test_website_live.py,test_website_live.py,1658,42,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/test_web_acceptance.py,test_web_acceptance.py,1510,39,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/verify_firebase_fresh.py,verify_firebase_fresh.py,4438,108,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/WEBSITE_CLOUD_SYNC_TESTS.md,WEBSITE_CLOUD_SYNC_TESTS.md,1506,31,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/WEBSITE_FUNCTIONAL_TESTS.md,WEBSITE_FUNCTIONAL_TESTS.md,5023,81,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/WEBSITE_SECURITY_TESTS.md,WEBSITE_SECURITY_TESTS.md,3808,66,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/WEBSITE_TEST_REPORT.md,WEBSITE_TEST_REPORT.md,6597,90,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/window_dump.xml,window_dump.xml,11532,1,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+HISTORICAL_ARCHIVE,REVIEW_BEFORE_DELETE/window_dump2.xml,window_dump2.xml,13339,1,Archive / Staging Directory,"Previous Iteration Scripts, APKs, and Reports",STAGING_ARCHIVE
+MEDIA_ASSETS,screenshots/android_dashboard.png,android_dashboard.png,586580,0,Image / Media Asset,Design Assets and Application Screenshots,MEDIA_ASSET
+MEDIA_ASSETS,screenshots/android_login.png,android_login.png,1389217,0,Image / Media Asset,Design Assets and Application Screenshots,MEDIA_ASSET
+MEDIA_ASSETS,screenshots/android_signup.png,android_signup.png,1394545,0,Image / Media Asset,Design Assets and Application Screenshots,MEDIA_ASSET
+MEDIA_ASSETS,screenshots/android_transaction_view.png,android_transaction_view.png,16206,0,Image / Media Asset,Design Assets and Application Screenshots,MEDIA_ASSET
+MEDIA_ASSETS,screenshots/app_logo.png,app_logo.png,1191788,0,Image / Media Asset,Design Assets and Application Screenshots,MEDIA_ASSET
+MEDIA_ASSETS,screenshots/app_screen.png,app_screen.png,586580,0,Image / Media Asset,Design Assets and Application Screenshots,MEDIA_ASSET
+MEDIA_ASSETS,screenshots/screen.png,screen.png,1389217,0,Image / Media Asset,Design Assets and Application Screenshots,MEDIA_ASSET
+MEDIA_ASSETS,screenshots/screen_current.png,screen_current.png,16206,0,Image / Media Asset,Design Assets and Application Screenshots,MEDIA_ASSET
+MEDIA_ASSETS,screenshots/signup_screen.png,signup_screen.png,1394545,0,Image / Media Asset,Design Assets and Application Screenshots,MEDIA_ASSET
+SOURCE_MIRROR,source_code/AndroidManifest.xml,AndroidManifest.xml,2124,53,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/java/com/example/liferece/AiAdvisorScreen.kt,AiAdvisorScreen.kt,26518,657,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/java/com/example/liferece/AiAdvisorViewModel.kt,AiAdvisorViewModel.kt,4383,110,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/java/com/example/liferece/BudgetScreen.kt,BudgetScreen.kt,17954,412,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/java/com/example/liferece/BudgetViewModel.kt,BudgetViewModel.kt,1241,41,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/java/com/example/liferece/DashboardScreen.kt,DashboardScreen.kt,30052,766,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/java/com/example/liferece/LoginScreen.kt,LoginScreen.kt,14156,335,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/java/com/example/liferece/MainActivity.kt,MainActivity.kt,5787,130,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/java/com/example/liferece/MainScreen.kt,MainScreen.kt,6022,139,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/java/com/example/liferece/OnboardingScreen.kt,OnboardingScreen.kt,12756,285,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/java/com/example/liferece/ProfileReportsScreen.kt,ProfileReportsScreen.kt,23260,516,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/java/com/example/liferece/ProfileViewModel.kt,ProfileViewModel.kt,9891,228,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/java/com/example/liferece/RegisterScreen.kt,RegisterScreen.kt,13449,297,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/java/com/example/liferece/TransactionsScreen.kt,TransactionsScreen.kt,19137,437,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/java/com/example/liferece/TransactionViewModel.kt,TransactionViewModel.kt,6119,165,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/java/com/example/liferece/UiState.kt,UiState.kt,241,9,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/java/com/example/liferece/UpiNotificationListenerService.kt,UpiNotificationListenerService.kt,10495,224,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/java/com/example/liferece/data/repository/AiAdvisorRepository.kt,AiAdvisorRepository.kt,13494,305,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/java/com/example/liferece/data/repository/BudgetRepository.kt,BudgetRepository.kt,4750,126,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/java/com/example/liferece/data/repository/TransactionRepository.kt,TransactionRepository.kt,9240,199,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/java/com/example/liferece/data/repository/UserRepository.kt,UserRepository.kt,5368,137,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/java/com/example/liferece/model/Models.kt,Models.kt,2988,115,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/java/com/example/liferece/ui/theme/Color.kt,Color.kt,1224,33,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/java/com/example/liferece/ui/theme/Theme.kt,Theme.kt,4324,137,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/java/com/example/liferece/ui/theme/Type.kt,Type.kt,1700,59,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/java/com/example/liferece/util/LocalReceiptManager.kt,LocalReceiptManager.kt,3792,109,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/java/com/example/liferece/util/ValidationUtils.kt,ValidationUtils.kt,4298,100,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/res/drawable/baked_goods_1.jpg,baked_goods_1.jpg,61037,0,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/res/drawable/baked_goods_2.jpg,baked_goods_2.jpg,63223,0,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/res/drawable/baked_goods_3.jpg,baked_goods_3.jpg,88033,0,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/res/drawable/ic_launcher_background.xml,ic_launcher_background.xml,5606,170,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/res/drawable/ic_launcher_foreground.xml,ic_launcher_foreground.xml,1702,30,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/res/mipmap-hdpi/ic_launcher.png,ic_launcher.png,6839,0,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/res/mipmap-hdpi/ic_launcher_round.png,ic_launcher_round.png,6839,0,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/res/mipmap-mdpi/ic_launcher.png,ic_launcher.png,3582,0,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/res/mipmap-mdpi/ic_launcher_round.png,ic_launcher_round.png,3582,0,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/res/mipmap-xhdpi/ic_launcher.png,ic_launcher.png,11047,0,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/res/mipmap-xhdpi/ic_launcher_round.png,ic_launcher_round.png,11047,0,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/res/mipmap-xxhdpi/ic_launcher.png,ic_launcher.png,22315,0,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/res/mipmap-xxhdpi/ic_launcher_round.png,ic_launcher_round.png,22315,0,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/res/mipmap-xxxhdpi/ic_launcher.png,ic_launcher.png,37002,0,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/res/mipmap-xxxhdpi/ic_launcher_round.png,ic_launcher_round.png,37002,0,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/res/values/colors.xml,colors.xml,378,10,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/res/values/strings.xml,strings.xml,553,11,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/res/values/themes.xml,themes.xml,150,5,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/res/xml/backup_rules.xml,backup_rules.xml,478,13,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/res/xml/data_extraction_rules.xml,data_extraction_rules.xml,551,19,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+SOURCE_MIRROR,source_code/res/xml/file_paths.xml,file_paths.xml,211,6,Mirrored Source Code,Redundant Source Code Backup Directory,REDUNDANT_MIRROR
+TECH_DOCS,technical_documentation/BUGS_AND_FIXES.md,BUGS_AND_FIXES.md,5176,70,Technical Documentation,"Architecture, Bugs, and Performance Notes",DOCUMENTATION
+TECH_DOCS,technical_documentation/PERFORMANCE_REPORT.md,PERFORMANCE_REPORT.md,3053,53,Technical Documentation,"Architecture, Bugs, and Performance Notes",DOCUMENTATION
+TECH_DOCS,technical_documentation/PROJECT_AUDIT.md,PROJECT_AUDIT.md,10176,114,Technical Documentation,"Architecture, Bugs, and Performance Notes",DOCUMENTATION
+QA_TEST_SCRIPTS,testing/ANDROID_ACCEPTANCE_TEST_REPORT.md,ANDROID_ACCEPTANCE_TEST_REPORT.md,7144,127,Python / Shell / Markdown Test,"Integration, Security, & Acceptance Testing",QA_ASSET
+QA_TEST_SCRIPTS,testing/ANDROID_CLOUD_SYNC_TESTS.md,ANDROID_CLOUD_SYNC_TESTS.md,2404,53,Python / Shell / Markdown Test,"Integration, Security, & Acceptance Testing",QA_ASSET
+QA_TEST_SCRIPTS,testing/ANDROID_DEVICE_TESTS.md,ANDROID_DEVICE_TESTS.md,4685,101,Python / Shell / Markdown Test,"Integration, Security, & Acceptance Testing",QA_ASSET
+QA_TEST_SCRIPTS,testing/ANDROID_SECURITY_TESTS.md,ANDROID_SECURITY_TESTS.md,3168,57,Python / Shell / Markdown Test,"Integration, Security, & Acceptance Testing",QA_ASSET
+QA_TEST_SCRIPTS,testing/ANDROID_TEST_REPORT.md,ANDROID_TEST_REPORT.md,12967,151,Python / Shell / Markdown Test,"Integration, Security, & Acceptance Testing",QA_ASSET
+QA_TEST_SCRIPTS,testing/audit_verification_suite.py,audit_verification_suite.py,25883,506,Python / Shell / Markdown Test,"Integration, Security, & Acceptance Testing",QA_ASSET
+QA_TEST_SCRIPTS,testing/BUTTON_FUNCTIONALITY_AUDIT.md,BUTTON_FUNCTIONALITY_AUDIT.md,17082,116,Python / Shell / Markdown Test,"Integration, Security, & Acceptance Testing",QA_ASSET
+QA_TEST_SCRIPTS,testing/CROSS_DEVICE_SYNC_TESTS.md,CROSS_DEVICE_SYNC_TESTS.md,3301,55,Python / Shell / Markdown Test,"Integration, Security, & Acceptance Testing",QA_ASSET
+QA_TEST_SCRIPTS,testing/test_firebase_auth.py,test_firebase_auth.py,1766,49,Python / Shell / Markdown Test,"Integration, Security, & Acceptance Testing",QA_ASSET
+QA_TEST_SCRIPTS,testing/test_firebase_live.py,test_firebase_live.py,4055,107,Python / Shell / Markdown Test,"Integration, Security, & Acceptance Testing",QA_ASSET
+QA_TEST_SCRIPTS,testing/test_gemini.py,test_gemini.py,4054,78,Python / Shell / Markdown Test,"Integration, Security, & Acceptance Testing",QA_ASSET
+QA_TEST_SCRIPTS,testing/test_security_suite.py,test_security_suite.py,11254,266,Python / Shell / Markdown Test,"Integration, Security, & Acceptance Testing",QA_ASSET
+QA_TEST_SCRIPTS,testing/unit_tests/java/com/example/liferece/ExampleUnitTest.kt,ExampleUnitTest.kt,344,17,Python / Shell / Markdown Test,"Integration, Security, & Acceptance Testing",QA_ASSET
+QA_TEST_SCRIPTS,testing/unit_tests/java/com/example/liferece/TransactionCalculationsTest.kt,TransactionCalculationsTest.kt,1523,43,Python / Shell / Markdown Test,"Integration, Security, & Acceptance Testing",QA_ASSET
+QA_TEST_SCRIPTS,testing/unit_tests/java/com/example/liferece/ValidationUtilsTest.kt,ValidationUtilsTest.kt,3953,101,Python / Shell / Markdown Test,"Integration, Security, & Acceptance Testing",QA_ASSET

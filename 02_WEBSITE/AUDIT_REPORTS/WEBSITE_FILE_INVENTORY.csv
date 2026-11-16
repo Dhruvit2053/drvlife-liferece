@@ -1,0 +1,186 @@
+File Path,File Type,Purpose,Status,Dependencies,Size (Bytes),Notes
+.gitignore,Other Asset,Static resource (.gitignore),CONFIG_OR_DOC,None,253,
+.oxlintrc.json,JSON Configuration,Project dependencies or compiler settings,CONFIG_OR_DOC,Tooling,245,
+README.md,Markdown Document,Technical architecture or test report,CONFIG_OR_DOC,None,2975,
+api_integration/appConfig.ts,TypeScript Module,"Business logic, service, or configuration (appConfig.ts)",REDUNDANT_DUPLICATE,Firebase SDK / Config,7531,Duplicate copy of source/dist created during earlier project reorganization
+api_integration/localReceiptStore.ts,TypeScript Module,"Business logic, service, or configuration (localReceiptStore.ts)",REDUNDANT_DUPLICATE,Firebase SDK / Config,5828,Duplicate copy of source/dist created during earlier project reorganization
+components/pages/AboutPage.tsx,React Component / Page,UI component or page view (AboutPage.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",4059,Duplicate copy of source/dist created during earlier project reorganization
+components/pages/ContactPage.tsx,React Component / Page,UI component or page view (ContactPage.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",4165,Duplicate copy of source/dist created during earlier project reorganization
+components/pages/DownloadPage.tsx,React Component / Page,UI component or page view (DownloadPage.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",10589,Duplicate copy of source/dist created during earlier project reorganization
+components/pages/FaqPage.tsx,React Component / Page,UI component or page view (FaqPage.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",3711,Duplicate copy of source/dist created during earlier project reorganization
+components/pages/FeaturesPage.tsx,React Component / Page,UI component or page view (FeaturesPage.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",7758,Duplicate copy of source/dist created during earlier project reorganization
+components/pages/HomePage.tsx,React Component / Page,UI component or page view (HomePage.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",6695,Duplicate copy of source/dist created during earlier project reorganization
+components/pages/HowItWorksPage.tsx,React Component / Page,UI component or page view (HowItWorksPage.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",6689,Duplicate copy of source/dist created during earlier project reorganization
+components/pages/PrivacyPage.tsx,React Component / Page,UI component or page view (PrivacyPage.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",6397,Duplicate copy of source/dist created during earlier project reorganization
+components/pages/TermsPage.tsx,React Component / Page,UI component or page view (TermsPage.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",4863,Duplicate copy of source/dist created during earlier project reorganization
+components/pages/app/AdvisorPage.tsx,React Component / Page,UI component or page view (AdvisorPage.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",9094,Duplicate copy of source/dist created during earlier project reorganization
+components/pages/app/BudgetsPage.tsx,React Component / Page,UI component or page view (BudgetsPage.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",9393,Duplicate copy of source/dist created during earlier project reorganization
+components/pages/app/DashboardPage.tsx,React Component / Page,UI component or page view (DashboardPage.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",16777,Duplicate copy of source/dist created during earlier project reorganization
+components/pages/app/ProfilePage.tsx,React Component / Page,UI component or page view (ProfilePage.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",8594,Duplicate copy of source/dist created during earlier project reorganization
+components/pages/app/TransactionsPage.tsx,React Component / Page,UI component or page view (TransactionsPage.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",15784,Duplicate copy of source/dist created during earlier project reorganization
+components/pages/auth/LoginPage.tsx,React Component / Page,UI component or page view (LoginPage.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",8011,Duplicate copy of source/dist created during earlier project reorganization
+components/pages/auth/RegisterPage.tsx,React Component / Page,UI component or page view (RegisterPage.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",10074,Duplicate copy of source/dist created during earlier project reorganization
+components/ui_components/AddTransactionModal.tsx,React Component / Page,UI component or page view (AddTransactionModal.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",12152,Duplicate copy of source/dist created during earlier project reorganization
+components/ui_components/AppShowcaseSection.tsx,React Component / Page,UI component or page view (AppShowcaseSection.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",7902,Duplicate copy of source/dist created during earlier project reorganization
+components/ui_components/ContactForm.tsx,React Component / Page,UI component or page view (ContactForm.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",6295,Duplicate copy of source/dist created during earlier project reorganization
+components/ui_components/DeviceMockup.tsx,React Component / Page,UI component or page view (DeviceMockup.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",17564,Duplicate copy of source/dist created during earlier project reorganization
+components/ui_components/FaqAccordion.tsx,React Component / Page,UI component or page view (FaqAccordion.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",1828,Duplicate copy of source/dist created during earlier project reorganization
+components/ui_components/FeaturesSection.tsx,React Component / Page,UI component or page view (FeaturesSection.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",4381,Duplicate copy of source/dist created during earlier project reorganization
+components/ui_components/Footer.tsx,React Component / Page,UI component or page view (Footer.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",5178,Duplicate copy of source/dist created during earlier project reorganization
+components/ui_components/HeroSection.tsx,React Component / Page,UI component or page view (HeroSection.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",4980,Duplicate copy of source/dist created during earlier project reorganization
+components/ui_components/HowItWorksSection.tsx,React Component / Page,UI component or page view (HowItWorksSection.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",3785,Duplicate copy of source/dist created during earlier project reorganization
+components/ui_components/Navbar.tsx,React Component / Page,UI component or page view (Navbar.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",8622,Duplicate copy of source/dist created during earlier project reorganization
+configuration/package-lock.json,JSON Configuration,Project dependencies or compiler settings,REDUNDANT_DUPLICATE,Tooling,149458,Duplicate copy of source/dist created during earlier project reorganization
+configuration/package.json,JSON Configuration,Project dependencies or compiler settings,REDUNDANT_DUPLICATE,Tooling,769,Duplicate copy of source/dist created during earlier project reorganization
+configuration/tsconfig.app.json,JSON Configuration,Project dependencies or compiler settings,REDUNDANT_DUPLICATE,Tooling,655,Duplicate copy of source/dist created during earlier project reorganization
+configuration/tsconfig.json,JSON Configuration,Project dependencies or compiler settings,REDUNDANT_DUPLICATE,Tooling,119,Duplicate copy of source/dist created during earlier project reorganization
+configuration/tsconfig.node.json,JSON Configuration,Project dependencies or compiler settings,REDUNDANT_DUPLICATE,Tooling,558,Duplicate copy of source/dist created during earlier project reorganization
+configuration/vite.config.ts,TypeScript Module,"Business logic, service, or configuration (vite.config.ts)",REDUNDANT_DUPLICATE,Firebase SDK / Config,233,Duplicate copy of source/dist created during earlier project reorganization
+deployment/200.html,HTML Document,SPA HTML entry point or fallback route,REDUNDANT_DUPLICATE,DOM Engine,2415,Duplicate copy of source/dist created during earlier project reorganization
+deployment/CNAME,Other Asset,Static resource (CNAME),REDUNDANT_DUPLICATE,None,19,Duplicate copy of source/dist created during earlier project reorganization
+deployment/_headers,Other Asset,Static resource (_headers),REDUNDANT_DUPLICATE,None,176,Duplicate copy of source/dist created during earlier project reorganization
+deployment/_redirects,Other Asset,Static resource (_redirects),REDUNDANT_DUPLICATE,None,25,Duplicate copy of source/dist created during earlier project reorganization
+deployment/dist/200.html,HTML Document,SPA HTML entry point or fallback route,REDUNDANT_DUPLICATE,DOM Engine,2415,Duplicate copy of source/dist created during earlier project reorganization
+deployment/dist/CNAME,Other Asset,Static resource (CNAME),REDUNDANT_DUPLICATE,None,19,Duplicate copy of source/dist created during earlier project reorganization
+deployment/dist/_headers,Other Asset,Static resource (_headers),REDUNDANT_DUPLICATE,None,176,Duplicate copy of source/dist created during earlier project reorganization
+deployment/dist/_redirects,Other Asset,Static resource (_redirects),REDUNDANT_DUPLICATE,None,25,Duplicate copy of source/dist created during earlier project reorganization
+deployment/dist/assets/index-BAhcaxEa.js,Other Asset,Static resource (index-BAhcaxEa.js),REDUNDANT_DUPLICATE,None,1019506,Duplicate copy of source/dist created during earlier project reorganization
+deployment/dist/assets/index-B_PH6Zdv.css,Stylesheet,Application styling and design tokens,REDUNDANT_DUPLICATE,Tailwind CSS,60343,Duplicate copy of source/dist created during earlier project reorganization
+deployment/dist/downloads/drvlife-v1.0.apk,Android Binary,Downloadable production APK release (v1.0),REDUNDANT_DUPLICATE,Android SDK,30055659,Duplicate copy of source/dist created during earlier project reorganization
+deployment/dist/favicon.svg,Vector/Raster Graphic,"Logo, favicon, or UI graphic asset",REDUNDANT_DUPLICATE,Browser Render,9522,Duplicate copy of source/dist created during earlier project reorganization
+deployment/dist/icons.svg,Vector/Raster Graphic,"Logo, favicon, or UI graphic asset",REDUNDANT_DUPLICATE,Browser Render,5031,Duplicate copy of source/dist created during earlier project reorganization
+deployment/dist/index.html,HTML Document,SPA HTML entry point or fallback route,REDUNDANT_DUPLICATE,DOM Engine,3080,Duplicate copy of source/dist created during earlier project reorganization
+deployment/dist/logo.png,Vector/Raster Graphic,"Logo, favicon, or UI graphic asset",REDUNDANT_DUPLICATE,Browser Render,1191788,Duplicate copy of source/dist created during earlier project reorganization
+deployment/dist/robots.txt,Other Asset,Static resource (robots.txt),REDUNDANT_DUPLICATE,None,66,Duplicate copy of source/dist created during earlier project reorganization
+deployment/dist/sitemap.xml,Other Asset,Static resource (sitemap.xml),REDUNDANT_DUPLICATE,None,1538,Duplicate copy of source/dist created during earlier project reorganization
+deployment/robots.txt,Other Asset,Static resource (robots.txt),REDUNDANT_DUPLICATE,None,66,Duplicate copy of source/dist created during earlier project reorganization
+deployment/sitemap.xml,Other Asset,Static resource (sitemap.xml),REDUNDANT_DUPLICATE,None,1538,Duplicate copy of source/dist created during earlier project reorganization
+dist/200.html,HTML Document,SPA HTML entry point or fallback route,BUILD_ARTIFACT,DOM Engine,2415,
+dist/CNAME,Other Asset,Static resource (CNAME),BUILD_ARTIFACT,None,19,
+dist/_headers,Other Asset,Static resource (_headers),BUILD_ARTIFACT,None,176,
+dist/_redirects,Other Asset,Static resource (_redirects),BUILD_ARTIFACT,None,25,
+dist/assets/index-CfAvStif.css,Stylesheet,Application styling and design tokens,BUILD_ARTIFACT,Tailwind CSS,60345,
+dist/assets/index-DZB3cAKn.js,Other Asset,Static resource (index-DZB3cAKn.js),BUILD_ARTIFACT,None,1019506,
+dist/downloads/drvlife-v1.0.apk,Android Binary,Downloadable production APK release (v1.0),BUILD_ARTIFACT,Android SDK,30055659,SHA-256: A420F818FF0DBDD0D6FC36DB220283709956E3025D5C4949C831C8870907018E
+dist/favicon.svg,Vector/Raster Graphic,"Logo, favicon, or UI graphic asset",BUILD_ARTIFACT,Browser Render,9522,
+dist/icons.svg,Vector/Raster Graphic,"Logo, favicon, or UI graphic asset",BUILD_ARTIFACT,Browser Render,5031,
+dist/index.html,HTML Document,SPA HTML entry point or fallback route,BUILD_ARTIFACT,DOM Engine,3080,
+dist/logo.png,Vector/Raster Graphic,"Logo, favicon, or UI graphic asset",BUILD_ARTIFACT,Browser Render,1191788,
+dist/robots.txt,Other Asset,Static resource (robots.txt),BUILD_ARTIFACT,None,66,
+dist/sitemap.xml,Other Asset,Static resource (sitemap.xml),BUILD_ARTIFACT,None,1538,
+firebase_integration/AuthContext.tsx,React Component / Page,UI component or page view (AuthContext.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",5014,Duplicate copy of source/dist created during earlier project reorganization
+firebase_integration/config.ts,TypeScript Module,"Business logic, service, or configuration (config.ts)",REDUNDANT_DUPLICATE,Firebase SDK / Config,631,Duplicate copy of source/dist created during earlier project reorganization
+firebase_integration/firestoreService.ts,TypeScript Module,"Business logic, service, or configuration (firestoreService.ts)",REDUNDANT_DUPLICATE,Firebase SDK / Config,10763,Duplicate copy of source/dist created during earlier project reorganization
+index.html,HTML Document,SPA HTML entry point or fallback route,ACTIVE_SOURCE,DOM Engine,2982,
+package-lock.json,JSON Configuration,Project dependencies or compiler settings,CONFIG_OR_DOC,Tooling,149458,
+package.json,JSON Configuration,Project dependencies or compiler settings,ACTIVE_SOURCE,Tooling,769,
+public/200.html,HTML Document,SPA HTML entry point or fallback route,ACTIVE_PUBLIC_ASSET,DOM Engine,2415,
+public/CNAME,Other Asset,Static resource (CNAME),ACTIVE_PUBLIC_ASSET,None,19,
+public/_headers,Other Asset,Static resource (_headers),ACTIVE_PUBLIC_ASSET,None,176,
+public/_redirects,Other Asset,Static resource (_redirects),ACTIVE_PUBLIC_ASSET,None,25,
+public/downloads/drvlife-v1.0.apk,Android Binary,Downloadable production APK release (v1.0),ACTIVE_PUBLIC_ASSET,Android SDK,30055659,SHA-256: A420F818FF0DBDD0D6FC36DB220283709956E3025D5C4949C831C8870907018E
+public/favicon.svg,Vector/Raster Graphic,"Logo, favicon, or UI graphic asset",ACTIVE_PUBLIC_ASSET,Browser Render,9522,
+public/icons.svg,Vector/Raster Graphic,"Logo, favicon, or UI graphic asset",ACTIVE_PUBLIC_ASSET,Browser Render,5031,
+public/logo.png,Vector/Raster Graphic,"Logo, favicon, or UI graphic asset",ACTIVE_PUBLIC_ASSET,Browser Render,1191788,
+public/robots.txt,Other Asset,Static resource (robots.txt),ACTIVE_PUBLIC_ASSET,None,66,
+public/sitemap.xml,Other Asset,Static resource (sitemap.xml),ACTIVE_PUBLIC_ASSET,None,1538,
+public_assets/200.html,HTML Document,SPA HTML entry point or fallback route,REDUNDANT_DUPLICATE,DOM Engine,2415,Duplicate copy of source/dist created during earlier project reorganization
+public_assets/CNAME,Other Asset,Static resource (CNAME),REDUNDANT_DUPLICATE,None,19,Duplicate copy of source/dist created during earlier project reorganization
+public_assets/_headers,Other Asset,Static resource (_headers),REDUNDANT_DUPLICATE,None,176,Duplicate copy of source/dist created during earlier project reorganization
+public_assets/_redirects,Other Asset,Static resource (_redirects),REDUNDANT_DUPLICATE,None,25,Duplicate copy of source/dist created during earlier project reorganization
+public_assets/downloads/drvlife-v1.0.apk,Android Binary,Downloadable production APK release (v1.0),REDUNDANT_DUPLICATE,Android SDK,30055659,Duplicate copy of source/dist created during earlier project reorganization
+public_assets/favicon.svg,Vector/Raster Graphic,"Logo, favicon, or UI graphic asset",REDUNDANT_DUPLICATE,Browser Render,9522,Duplicate copy of source/dist created during earlier project reorganization
+public_assets/icons.svg,Vector/Raster Graphic,"Logo, favicon, or UI graphic asset",REDUNDANT_DUPLICATE,Browser Render,5031,Duplicate copy of source/dist created during earlier project reorganization
+public_assets/logo.png,Vector/Raster Graphic,"Logo, favicon, or UI graphic asset",REDUNDANT_DUPLICATE,Browser Render,1191788,Duplicate copy of source/dist created during earlier project reorganization
+public_assets/robots.txt,Other Asset,Static resource (robots.txt),REDUNDANT_DUPLICATE,None,66,Duplicate copy of source/dist created during earlier project reorganization
+public_assets/sitemap.xml,Other Asset,Static resource (sitemap.xml),REDUNDANT_DUPLICATE,None,1538,Duplicate copy of source/dist created during earlier project reorganization
+source_code/App.css,Stylesheet,Application styling and design tokens,REDUNDANT_DUPLICATE,Tailwind CSS,2891,Duplicate copy of source/dist created during earlier project reorganization
+source_code/App.tsx,React Component / Page,UI component or page view (App.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",3308,Duplicate copy of source/dist created during earlier project reorganization
+source_code/assets/hero.png,Vector/Raster Graphic,"Logo, favicon, or UI graphic asset",REDUNDANT_DUPLICATE,Browser Render,13057,Duplicate copy of source/dist created during earlier project reorganization
+source_code/assets/react.svg,Vector/Raster Graphic,"Logo, favicon, or UI graphic asset",REDUNDANT_DUPLICATE,Browser Render,4126,Duplicate copy of source/dist created during earlier project reorganization
+source_code/assets/vite.svg,Vector/Raster Graphic,"Logo, favicon, or UI graphic asset",REDUNDANT_DUPLICATE,Browser Render,8709,Duplicate copy of source/dist created during earlier project reorganization
+source_code/components/AddTransactionModal.tsx,React Component / Page,UI component or page view (AddTransactionModal.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",12152,Duplicate copy of source/dist created during earlier project reorganization
+source_code/components/AppShowcaseSection.tsx,React Component / Page,UI component or page view (AppShowcaseSection.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",7902,Duplicate copy of source/dist created during earlier project reorganization
+source_code/components/ContactForm.tsx,React Component / Page,UI component or page view (ContactForm.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",6295,Duplicate copy of source/dist created during earlier project reorganization
+source_code/components/DeviceMockup.tsx,React Component / Page,UI component or page view (DeviceMockup.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",17564,Duplicate copy of source/dist created during earlier project reorganization
+source_code/components/FaqAccordion.tsx,React Component / Page,UI component or page view (FaqAccordion.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",1828,Duplicate copy of source/dist created during earlier project reorganization
+source_code/components/FeaturesSection.tsx,React Component / Page,UI component or page view (FeaturesSection.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",4381,Duplicate copy of source/dist created during earlier project reorganization
+source_code/components/Footer.tsx,React Component / Page,UI component or page view (Footer.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",5178,Duplicate copy of source/dist created during earlier project reorganization
+source_code/components/HeroSection.tsx,React Component / Page,UI component or page view (HeroSection.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",4980,Duplicate copy of source/dist created during earlier project reorganization
+source_code/components/HowItWorksSection.tsx,React Component / Page,UI component or page view (HowItWorksSection.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",3785,Duplicate copy of source/dist created during earlier project reorganization
+source_code/components/Navbar.tsx,React Component / Page,UI component or page view (Navbar.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",8622,Duplicate copy of source/dist created during earlier project reorganization
+source_code/config/appConfig.ts,TypeScript Module,"Business logic, service, or configuration (appConfig.ts)",REDUNDANT_DUPLICATE,Firebase SDK / Config,7531,Duplicate copy of source/dist created during earlier project reorganization
+source_code/context/AuthContext.tsx,React Component / Page,UI component or page view (AuthContext.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",5014,Duplicate copy of source/dist created during earlier project reorganization
+source_code/firebase/config.ts,TypeScript Module,"Business logic, service, or configuration (config.ts)",REDUNDANT_DUPLICATE,Firebase SDK / Config,631,Duplicate copy of source/dist created during earlier project reorganization
+source_code/index.css,Stylesheet,Application styling and design tokens,REDUNDANT_DUPLICATE,Tailwind CSS,1607,Duplicate copy of source/dist created during earlier project reorganization
+source_code/main.tsx,React Component / Page,UI component or page view (main.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",230,Duplicate copy of source/dist created during earlier project reorganization
+source_code/pages/AboutPage.tsx,React Component / Page,UI component or page view (AboutPage.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",4059,Duplicate copy of source/dist created during earlier project reorganization
+source_code/pages/ContactPage.tsx,React Component / Page,UI component or page view (ContactPage.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",4165,Duplicate copy of source/dist created during earlier project reorganization
+source_code/pages/DownloadPage.tsx,React Component / Page,UI component or page view (DownloadPage.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",10589,Duplicate copy of source/dist created during earlier project reorganization
+source_code/pages/FaqPage.tsx,React Component / Page,UI component or page view (FaqPage.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",3711,Duplicate copy of source/dist created during earlier project reorganization
+source_code/pages/FeaturesPage.tsx,React Component / Page,UI component or page view (FeaturesPage.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",7758,Duplicate copy of source/dist created during earlier project reorganization
+source_code/pages/HomePage.tsx,React Component / Page,UI component or page view (HomePage.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",6695,Duplicate copy of source/dist created during earlier project reorganization
+source_code/pages/HowItWorksPage.tsx,React Component / Page,UI component or page view (HowItWorksPage.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",6689,Duplicate copy of source/dist created during earlier project reorganization
+source_code/pages/PrivacyPage.tsx,React Component / Page,UI component or page view (PrivacyPage.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",6397,Duplicate copy of source/dist created during earlier project reorganization
+source_code/pages/TermsPage.tsx,React Component / Page,UI component or page view (TermsPage.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",4863,Duplicate copy of source/dist created during earlier project reorganization
+source_code/pages/app/AdvisorPage.tsx,React Component / Page,UI component or page view (AdvisorPage.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",9094,Duplicate copy of source/dist created during earlier project reorganization
+source_code/pages/app/BudgetsPage.tsx,React Component / Page,UI component or page view (BudgetsPage.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",9393,Duplicate copy of source/dist created during earlier project reorganization
+source_code/pages/app/DashboardPage.tsx,React Component / Page,UI component or page view (DashboardPage.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",16777,Duplicate copy of source/dist created during earlier project reorganization
+source_code/pages/app/ProfilePage.tsx,React Component / Page,UI component or page view (ProfilePage.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",8594,Duplicate copy of source/dist created during earlier project reorganization
+source_code/pages/app/TransactionsPage.tsx,React Component / Page,UI component or page view (TransactionsPage.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",15784,Duplicate copy of source/dist created during earlier project reorganization
+source_code/pages/auth/LoginPage.tsx,React Component / Page,UI component or page view (LoginPage.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",8011,Duplicate copy of source/dist created during earlier project reorganization
+source_code/pages/auth/RegisterPage.tsx,React Component / Page,UI component or page view (RegisterPage.tsx),REDUNDANT_DUPLICATE,"React 19, Lucide, Tailwind",10074,Duplicate copy of source/dist created during earlier project reorganization
+source_code/services/firestoreService.ts,TypeScript Module,"Business logic, service, or configuration (firestoreService.ts)",REDUNDANT_DUPLICATE,Firebase SDK / Config,10763,Duplicate copy of source/dist created during earlier project reorganization
+source_code/services/localReceiptStore.ts,TypeScript Module,"Business logic, service, or configuration (localReceiptStore.ts)",REDUNDANT_DUPLICATE,Firebase SDK / Config,5828,Duplicate copy of source/dist created during earlier project reorganization
+source_code/types/finance.ts,TypeScript Module,"Business logic, service, or configuration (finance.ts)",REDUNDANT_DUPLICATE,Firebase SDK / Config,1124,Duplicate copy of source/dist created during earlier project reorganization
+src/App.css,Stylesheet,Application styling and design tokens,ACTIVE_SOURCE,Tailwind CSS,2891,Unused Vite boilerplate styles; can be purged safely
+src/App.tsx,React Component / Page,UI component or page view (App.tsx),ACTIVE_SOURCE,"React 19, Lucide, Tailwind",3308,
+src/assets/hero.png,Vector/Raster Graphic,"Logo, favicon, or UI graphic asset",ACTIVE_SOURCE,Browser Render,13057,Unused starter asset in src/assets
+src/assets/react.svg,Vector/Raster Graphic,"Logo, favicon, or UI graphic asset",ACTIVE_SOURCE,Browser Render,4126,Unused starter asset in src/assets
+src/assets/vite.svg,Vector/Raster Graphic,"Logo, favicon, or UI graphic asset",ACTIVE_SOURCE,Browser Render,8709,Unused starter asset in src/assets
+src/components/AddTransactionModal.tsx,React Component / Page,UI component or page view (AddTransactionModal.tsx),ACTIVE_SOURCE,"React 19, Lucide, Tailwind",12152,
+src/components/AppShowcaseSection.tsx,React Component / Page,UI component or page view (AppShowcaseSection.tsx),ACTIVE_SOURCE,"React 19, Lucide, Tailwind",7902,
+src/components/ContactForm.tsx,React Component / Page,UI component or page view (ContactForm.tsx),ACTIVE_SOURCE,"React 19, Lucide, Tailwind",6295,
+src/components/DeviceMockup.tsx,React Component / Page,UI component or page view (DeviceMockup.tsx),ACTIVE_SOURCE,"React 19, Lucide, Tailwind",17564,
+src/components/FaqAccordion.tsx,React Component / Page,UI component or page view (FaqAccordion.tsx),ACTIVE_SOURCE,"React 19, Lucide, Tailwind",1828,
+src/components/FeaturesSection.tsx,React Component / Page,UI component or page view (FeaturesSection.tsx),ACTIVE_SOURCE,"React 19, Lucide, Tailwind",4381,
+src/components/Footer.tsx,React Component / Page,UI component or page view (Footer.tsx),ACTIVE_SOURCE,"React 19, Lucide, Tailwind",5178,
+src/components/HeroSection.tsx,React Component / Page,UI component or page view (HeroSection.tsx),ACTIVE_SOURCE,"React 19, Lucide, Tailwind",4980,
+src/components/HowItWorksSection.tsx,React Component / Page,UI component or page view (HowItWorksSection.tsx),ACTIVE_SOURCE,"React 19, Lucide, Tailwind",3785,
+src/components/Navbar.tsx,React Component / Page,UI component or page view (Navbar.tsx),ACTIVE_SOURCE,"React 19, Lucide, Tailwind",8622,
+src/config/appConfig.ts,TypeScript Module,"Business logic, service, or configuration (appConfig.ts)",ACTIVE_SOURCE,Firebase SDK / Config,7531,
+src/context/AuthContext.tsx,React Component / Page,UI component or page view (AuthContext.tsx),ACTIVE_SOURCE,"React 19, Lucide, Tailwind",5014,
+src/firebase/config.ts,TypeScript Module,"Business logic, service, or configuration (config.ts)",ACTIVE_SOURCE,Firebase SDK / Config,631,
+src/index.css,Stylesheet,Application styling and design tokens,ACTIVE_SOURCE,Tailwind CSS,1607,
+src/main.tsx,React Component / Page,UI component or page view (main.tsx),ACTIVE_SOURCE,"React 19, Lucide, Tailwind",230,
+src/pages/AboutPage.tsx,React Component / Page,UI component or page view (AboutPage.tsx),ACTIVE_SOURCE,"React 19, Lucide, Tailwind",4059,
+src/pages/ContactPage.tsx,React Component / Page,UI component or page view (ContactPage.tsx),ACTIVE_SOURCE,"React 19, Lucide, Tailwind",4165,
+src/pages/DownloadPage.tsx,React Component / Page,UI component or page view (DownloadPage.tsx),ACTIVE_SOURCE,"React 19, Lucide, Tailwind",10589,
+src/pages/FaqPage.tsx,React Component / Page,UI component or page view (FaqPage.tsx),ACTIVE_SOURCE,"React 19, Lucide, Tailwind",3711,
+src/pages/FeaturesPage.tsx,React Component / Page,UI component or page view (FeaturesPage.tsx),ACTIVE_SOURCE,"React 19, Lucide, Tailwind",7758,
+src/pages/HomePage.tsx,React Component / Page,UI component or page view (HomePage.tsx),ACTIVE_SOURCE,"React 19, Lucide, Tailwind",6695,
+src/pages/HowItWorksPage.tsx,React Component / Page,UI component or page view (HowItWorksPage.tsx),ACTIVE_SOURCE,"React 19, Lucide, Tailwind",6689,
+src/pages/PrivacyPage.tsx,React Component / Page,UI component or page view (PrivacyPage.tsx),ACTIVE_SOURCE,"React 19, Lucide, Tailwind",6397,
+src/pages/TermsPage.tsx,React Component / Page,UI component or page view (TermsPage.tsx),ACTIVE_SOURCE,"React 19, Lucide, Tailwind",4863,
+src/pages/app/AdvisorPage.tsx,React Component / Page,UI component or page view (AdvisorPage.tsx),ACTIVE_SOURCE,"React 19, Lucide, Tailwind",9094,
+src/pages/app/BudgetsPage.tsx,React Component / Page,UI component or page view (BudgetsPage.tsx),ACTIVE_SOURCE,"React 19, Lucide, Tailwind",9393,
+src/pages/app/DashboardPage.tsx,React Component / Page,UI component or page view (DashboardPage.tsx),ACTIVE_SOURCE,"React 19, Lucide, Tailwind",16777,
+src/pages/app/ProfilePage.tsx,React Component / Page,UI component or page view (ProfilePage.tsx),ACTIVE_SOURCE,"React 19, Lucide, Tailwind",8594,
+src/pages/app/TransactionsPage.tsx,React Component / Page,UI component or page view (TransactionsPage.tsx),ACTIVE_SOURCE,"React 19, Lucide, Tailwind",15784,
+src/pages/auth/LoginPage.tsx,React Component / Page,UI component or page view (LoginPage.tsx),ACTIVE_SOURCE,"React 19, Lucide, Tailwind",8011,
+src/pages/auth/RegisterPage.tsx,React Component / Page,UI component or page view (RegisterPage.tsx),ACTIVE_SOURCE,"React 19, Lucide, Tailwind",10074,
+src/services/firestoreService.ts,TypeScript Module,"Business logic, service, or configuration (firestoreService.ts)",ACTIVE_SOURCE,Firebase SDK / Config,10763,
+src/services/localReceiptStore.ts,TypeScript Module,"Business logic, service, or configuration (localReceiptStore.ts)",ACTIVE_SOURCE,Firebase SDK / Config,5828,
+src/types/finance.ts,TypeScript Module,"Business logic, service, or configuration (finance.ts)",ACTIVE_SOURCE,Firebase SDK / Config,1124,
+technical_documentation/WEB_ARCHITECTURE.md,Markdown Document,Technical architecture or test report,DOCUMENTATION,None,6756,
+testing/WEBSITE_CLOUD_SYNC_TESTS.md,Markdown Document,Technical architecture or test report,TEST_SUITE,None,1537,
+testing/WEBSITE_FUNCTIONAL_TESTS.md,Markdown Document,Technical architecture or test report,TEST_SUITE,None,5023,
+testing/WEBSITE_SECURITY_TESTS.md,Markdown Document,Technical architecture or test report,TEST_SUITE,None,3808,
+testing/WEBSITE_TEST_REPORT.md,Markdown Document,Technical architecture or test report,TEST_SUITE,None,6597,
+testing/WEB_ACCEPTANCE_TEST_REPORT.md,Markdown Document,Technical architecture or test report,TEST_SUITE,None,6756,
+testing/test_web_acceptance.py,Python Test Script,Automated HTTP and endpoint acceptance verification,TEST_SUITE,"urllib, standard library",1510,
+testing/test_website_live.py,Python Test Script,Automated HTTP and endpoint acceptance verification,TEST_SUITE,"urllib, standard library",1658,
+tsconfig.app.json,JSON Configuration,Project dependencies or compiler settings,ACTIVE_SOURCE,Tooling,655,
+tsconfig.json,JSON Configuration,Project dependencies or compiler settings,ACTIVE_SOURCE,Tooling,119,
+tsconfig.node.json,JSON Configuration,Project dependencies or compiler settings,ACTIVE_SOURCE,Tooling,558,
+vite.config.ts,TypeScript Module,"Business logic, service, or configuration (vite.config.ts)",ACTIVE_SOURCE,Firebase SDK / Config,233,
