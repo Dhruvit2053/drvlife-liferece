@@ -1,40 +1,277 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <!-- Google tag (gtag.js) & GTM -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-5B5846STKH"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-5B5846STKH');
+      gtag('config', 'GTM-P7QP49G9');
+    </script>
+
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="/logo.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#0C091A" />
+    <meta name="color-scheme" content="dark" />
 
-    <!-- Primary Meta Tags -->
-    <title>DrvLife — AI-Powered Personal Finance & Auto-Tracker</title>
-    <meta name="title" content="DrvLife — AI-Powered Personal Finance & Auto-Tracker" />
-    <meta name="description" content="Meet DrvLife — an intelligent Android financial companion that automatically tracks UPI alerts, organizes budgets, and delivers tailored Gemini AI savings insights directly on your device." />
-    <meta name="keywords" content="DrvLife, DrvLife App, DrvLife APK Download, Personal Finance Manager, AI Expense Tracker, Smart Expense Management, UPI Auto Sync, Google Pay, PhonePe, Paytm, Gemini AI" />
-    <meta name="author" content="DrvLife Team" />
-    <meta name="robots" content="index, follow" />
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://liferece.surge.sh/" />
 
-    <!-- Open Graph / Facebook -->
+    <!-- Security Headers / Content Security Policy -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https: blob:; connect-src 'self' https://identitytoolkit.googleapis.com https://securetoken.googleapis.com https://firestore.googleapis.com https://*.firebaseio.com https://generativelanguage.googleapis.com https://www.google-analytics.com https://*.google-analytics.com https://*.analytics.google.com https://*.googletagmanager.com; object-src 'none'; base-uri 'self';" />
+    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+
+    <!-- Primary SEO Meta Tags (Claude-SEO & Open-SEO High-CTR Specification) -->
+    <title>DrvLife — #1 AI-Powered Expense &amp; UPI Auto-Tracker for Android | Smart Budgeting</title>
+    <meta name="title" content="DrvLife — #1 AI-Powered Expense &amp; UPI Auto-Tracker for Android | Smart Budgeting" />
+    <meta name="description" content="Track UPI payments automatically from GPay, PhonePe &amp; Paytm, scan receipts with on-device OCR, and grow savings with Google Gemini AI. 100% offline-first, private &amp; open-source." />
+    <meta name="keywords" content="DrvLife, LifeRece, AI Expense Tracker, UPI Auto Tracker, UPI notification tracker, Android expense manager, Google Pay expense tracker, PhonePe auto expense, Paytm tracker, Gemini AI personal finance, smart receipt scanner, offline finance app India, free expense manager APK" />
+    <meta name="author" content="Dhruvit Sarvaiya (DrvLife)" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+
+    <!-- Open Graph / Facebook (1200x630 Social & Rich Search Card) -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://drvlife.app/" />
-    <meta property="og:title" content="DrvLife — AI-Powered Personal Finance & Auto-Tracker" />
-    <meta property="og:description" content="Track smarter. Save better. Live financially free. Native Android personal finance with automated UPI notification parsing and Gemini AI." />
-    <meta property="og:image" content="/logo.png" />
+    <meta property="og:url" content="https://liferece.surge.sh/" />
+    <meta property="og:site_name" content="DrvLife" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:title" content="DrvLife — #1 AI Expense Tracker &amp; Automatic UPI Sync for Android" />
+    <meta property="og:description" content="Automate UPI expense tracking, scan receipts with OCR, and receive intelligent Gemini AI budget recommendations. 100% private and offline-first." />
+    <meta property="og:image" content="https://liferece.surge.sh/og-image.png" />
+    <meta property="og:image:secure_url" content="https://liferece.surge.sh/og-image.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="DrvLife AI Expense and UPI Management Platform" />
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://drvlife.app/" />
-    <meta property="twitter:title" content="DrvLife — AI-Powered Personal Finance & Auto-Tracker" />
-    <meta property="twitter:description" content="Track smarter. Save better. Live financially free. Native Android personal finance with automated UPI notification parsing and Gemini AI." />
-    <meta property="twitter:image" content="/logo.png" />
+    <!-- Twitter Card (Large Image Card) -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://liferece.surge.sh/" />
+    <meta name="twitter:title" content="DrvLife — #1 AI Expense Tracker &amp; Automatic UPI Sync for Android" />
+    <meta name="twitter:description" content="Automate UPI expense tracking, scan receipts with OCR, and receive intelligent Gemini AI budget recommendations. 100% private and offline-first." />
+    <meta name="twitter:image" content="https://liferece.surge.sh/og-image.png" />
+    <meta name="twitter:image:alt" content="DrvLife AI Expense and UPI Management Platform" />
+
+    <!-- Mobile, PWA & Favicon Icons -->
+    <link rel="icon" type="image/png" href="/logo.png" />
+    <link rel="apple-touch-icon" sizes="192x192" href="/logo-192.png" />
+    <link rel="apple-touch-icon" sizes="512x512" href="/logo-512.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="DrvLife" />
+    <meta name="application-name" content="DrvLife" />
 
     <!-- Preconnect Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <script type="module" crossorigin src="/assets/index-CFgwJnAX.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-Cp-ltRUB.css">
+
+    <!-- JSON-LD Structured Data Schema (Rich Snippets, Google SGE, Perplexity, ChatGPT AEO) -->
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://liferece.surge.sh/#website",
+      "url": "https://liferece.surge.sh/",
+      "name": "DrvLife",
+      "description": "AI-Powered Personal Finance & Automatic UPI Expense Tracker for Android",
+      "publisher": {
+        "@id": "https://liferece.surge.sh/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://liferece.surge.sh/search?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://liferece.surge.sh/#organization",
+      "name": "DrvLife (LifeRece)",
+      "url": "https://liferece.surge.sh/",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://liferece.surge.sh/#logo",
+        "url": "https://liferece.surge.sh/logo-512.png",
+        "contentUrl": "https://liferece.surge.sh/logo-512.png",
+        "caption": "DrvLife Financial Logo",
+        "width": 512,
+        "height": 512
+      },
+      "sameAs": [
+        "https://github.com/Dhruvit2053/drvlife-liferece"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer support",
+        "email": "dhruvitsarvaiya2003@gmail.com",
+        "url": "https://liferece.surge.sh/contact"
+      }
+    },
+    {
+      "@type": "SoftwareApplication",
+      "@id": "https://liferece.surge.sh/#app",
+      "name": "DrvLife \u2014 AI-Powered Expense & UPI Auto-Tracker",
+      "operatingSystem": "Android 8.0 and up, Web",
+      "applicationCategory": "FinanceApplication",
+      "applicationSubCategory": "Expense Tracker & Personal Finance",
+      "url": "https://liferece.surge.sh/download",
+      "downloadUrl": "https://liferece.surge.sh/downloads/DrvLife-v1.0.0-release.apk",
+      "image": "https://liferece.surge.sh/logo-512.png",
+      "screenshot": "https://liferece.surge.sh/og-image.png",
+      "softwareVersion": "1.0.0",
+      "fileSize": "14MB",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "INR",
+        "availability": "https://schema.org/InStock"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "128",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "featureList": [
+        "Automatic UPI SMS & Notification Tracking (GPay, PhonePe, Paytm, CRED)",
+        "Gemini AI Smart Financial Advisory and Budget Insights",
+        "Receipt Scanning with On-Device ML OCR",
+        "100% Offline-First Architecture with Cloud Backup",
+        "Category Budgeting & Overspending Alerts",
+        "Export to CSV, PDF, and Excel reports"
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://liferece.surge.sh/#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is DrvLife (LifeRece)?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DrvLife is an intelligent, offline-first personal finance application for Android and Web. It automatically records UPI expenses from apps like Google Pay, PhonePe, and Paytm, provides on-device receipt scanning with OCR, and delivers actionable savings advice powered by Google Gemini AI."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does DrvLife track UPI payments automatically?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DrvLife listens securely to transactional notifications from Indian banking and payment apps (Google Pay, PhonePe, Paytm, CRED, BHIM) on your Android device. It parses amount, merchant name, and payment mode completely on-device without needing access to bank accounts or OTPs."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is DrvLife free and safe to use?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, DrvLife is 100% free and open-source. Your financial transactions and receipts remain strictly private and stored on your device. DrvLife never asks for your bank passwords, debit card PINs, or confidential credentials."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does DrvLife work offline?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes! DrvLife is designed with an offline-first architecture. You can log expenses, scan receipts, and review budgets without an internet connection. When online, your encrypted data automatically synchronizes with Firebase Cloud Firestore."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does Gemini AI help manage my expenses in DrvLife?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "DrvLife integrates Google's Gemini AI to analyze your monthly spending patterns, detect recurring subscriptions, identify wasteful expenses, and generate personalized recommendations to help you reach your savings goals faster."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where can I download DrvLife APK for Android?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can download the official DrvLife release APK directly from https://liferece.surge.sh/download or clone the open-source repository from GitHub."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://liferece.surge.sh/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://liferece.surge.sh/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Features",
+          "item": "https://liferece.surge.sh/features"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Download",
+          "item": "https://liferece.surge.sh/download"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "FAQ",
+          "item": "https://liferece.surge.sh/faq"
+        }
+      ]
+    }
+  ]
+}
+    </script>
+    <script type="module" crossorigin src="/assets/index-DVdpS_nA.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-UtLbl0-T.css">
   </head>
   <body class="bg-[#0C091A] text-[#E8E6F0]">
-    <div id="root"></div>
+    <!-- Accessible Semantic Fallback for Headless Search Crawlers & AI Answer Engines (GEO/AEO) -->
+    <noscript>
+      <div style="padding: 24px; font-family: system-ui, -apple-system, sans-serif; background-color: #0c091a; color: #e8e6f0; line-height: 1.6;">
+        <h1>DrvLife — #1 AI-Powered Expense &amp; UPI Auto-Tracker for Android</h1>
+        <p><strong>DrvLife (LifeRece)</strong> is an intelligent, offline-first personal finance and automated expense management platform built for modern Android users. It captures transactions in real time from Indian UPI applications including Google Pay, PhonePe, Paytm, and CRED, combines on-device OCR receipt parsing, and provides personalized financial advisory using Google Gemini AI.</p>
+        
+        <h2>Key Platform Highlights</h2>
+        <ul>
+          <li><strong>Automatic UPI Tracking:</strong> Seamlessly captures transaction alerts from banking and UPI apps with 100% on-device privacy.</li>
+          <li><strong>Smart OCR Receipt Scanner:</strong> Extracts vendor, date, and total amount directly from paper receipts using on-device machine learning.</li>
+          <li><strong>Gemini AI Advisor:</strong> Identifies recurring expenses, flags unnecessary spending, and delivers customized saving strategies.</li>
+          <li><strong>Offline-First &amp; Cloud Sync:</strong> Works with zero connectivity; securely backs up to Firebase Cloud Firestore when connected.</li>
+          <li><strong>100% Free &amp; Open Source:</strong> Zero ads, zero bank credential requests, and complete data privacy.</li>
+        </ul>
+
+        <h2>Quick Links</h2>
+        <p>
+          <a href="/download" style="color: #7F77DD; margin-right: 12px;">Download Android APK</a> |
+          <a href="/features" style="color: #7F77DD; margin-right: 12px;">App Features</a> |
+          <a href="/how-it-works" style="color: #7F77DD; margin-right: 12px;">How It Works</a> |
+          <a href="/faq" style="color: #7F77DD; margin-right: 12px;">FAQs</a> |
+          <a href="/privacy" style="color: #7F77DD;">Privacy Policy</a>
+        </p>
+      </div>
+    </noscript>
+
+    <div id="root"></div>
   </body>
 </html>

@@ -1,5 +1,36 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://drvlife.app/sitemap.xml
+# Search Engine Crawlers & Social Bots
+User-agent: Googlebot
+Allow: /
 
+User-agent: Googlebot-Image
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+# Generative AI & Answer Engine Crawlers (AEO / GEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+Sitemap: https://liferece.surge.sh/sitemap.xml
